@@ -1,0 +1,132 @@
+.container {
+  padding-bottom: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.inner_container {
+  background-color: rgb(255 255 255 / 74%);
+  border-radius: 0px 0px 18px 18px;
+  max-width: 70%;
+  margin: 0 auto;
+}
+.thailand_main_svg {
+  width: 85px;
+  margin: 0 auto 30px auto;
+  padding-top: 30px;
+  cursor: pointer;
+}
+.main_heading h1 {
+  color: #2c392c;
+  text-align: center;
+  font-family: "Mories", serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+  padding: 10px 20px 20px 20px;
+}
+.main_hr {
+  width: 8%;
+  margin: 0 auto;
+  height: 1px;
+  border: none;
+  background: #ad8e72;
+}
+.main_text {
+  color: #2c392c;
+  font-family: "Afacad", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2;
+  text-align: center;
+  margin: 0;
+  padding: 50px 0 50px 0;
+}
+.thailand_main_svg {
+  perspective: 1000px;
+}
+
+.thailand_main_svg img {
+  width: 100%;
+  transform: rotateY(0deg); /* Initial rotation */
+  transition: transform 1s ease-in-out; /* Smooth transition for rotation */
+}
+
+.thailand_main_svg:hover img {
+  transform: rotateY(180deg); /* Rotate the image on hover */
+}
+.contact_main_heading h1 {
+  color: #2c392c;
+  text-align: center;
+  font-family: "Mories", serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+  padding: 40px 20px 20px 20px;
+}
+@media only screen and (max-width: 1440px) {
+  .main_heading h1 {
+    font-size: 38px;
+  }
+  .contact_main_heading h1 {
+    font-size: 38px;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  .thailand_main_svg {
+    padding-top: 100px;
+    padding-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .main_heading h1 {
+    font-size: 34px;
+  }
+  .contact_main_heading h1 {
+    font-size: 34px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .container {
+    padding-bottom: 40px;
+  }
+  .main_heading h1 {
+    font-size: 30px;
+  }
+  .contact_main_heading h1 {
+    font-size: 30px;
+    padding-top: 10px;
+  }
+  .main_text {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 25px 0 40px 0;
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .main_hr {
+    width: 16%;
+  }
+  .main_heading h1 {
+    font-size: 26px;
+  }
+  .contact_main_heading h1 {
+    font-size: 26px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .main_heading h1 {
+    font-size: 22px;
+  }
+  .contact_main_heading h1 {
+    font-size: 26px;
+  }
+}

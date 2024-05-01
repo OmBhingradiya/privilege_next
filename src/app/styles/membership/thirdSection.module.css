@@ -1,0 +1,133 @@
+.inner_container {
+  max-width: 70%;
+  margin: 0 auto 60px auto;
+}
+.main_heading h2 {
+  color: #2c392c;
+  text-align: center;
+  font-family: "Mories", serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+  padding: 60px 0 40px 0;
+}
+.main_hr {
+  width: 7%;
+  margin: 0 auto;
+  height: 1px;
+  border: none;
+  background: #ad8e72;
+}
+.main_text {
+  color: #2c392c;
+  font-family: "Afacad", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2;
+  text-align: center;
+  margin: 0;
+  padding: 40px 30px;
+}
+
+.main_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 48px;
+  margin: 60px 0 40px 0;
+}
+.main_box {
+  display: flex;
+  gap: 20px;
+}
+.main_text_container h2 {
+  color: #2c392c;
+  font-family: "Afacad", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.2;
+  margin: 0;
+}
+.main_text_container p {
+  color: #838b83;
+  font-family: "Afacad", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2;
+  margin: 10px 0 0 0;
+}
+.svg_div {
+  background: #ad8e72;
+  padding: 15px;
+  border-radius: 0 20px;
+  display: flex;
+}
+@media only screen and (max-width: 1440px) {
+  .main_heading h2 {
+    font-size: 36px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .main_container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .main_heading h2 {
+    font-size: 32px;
+  }
+  .inner_container {
+    max-width: 80%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .main_container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .main_heading h2 {
+    font-size: 28px;
+  }
+  .main_hr {
+    width: 12%;
+  }
+  .main_container {
+    margin-top: 40px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .main_heading h2 {
+    padding: 40px 0 25px 0;
+    font-size: 24px;
+  }
+  .main_hr {
+    width: 12%;
+  }
+  .main_text_container p {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .main_container {
+    gap: 40px;
+  }
+  .main_heading h2 {
+    font-size: 20px;
+  }
+  .main_box {
+    flex-direction: column;
+  }
+  .svg_box {
+    width: 18%;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  .main_text_container h2 {
+    text-align: center;
+  }
+  .main_text_container p {
+    text-align: center;
+  }
+}

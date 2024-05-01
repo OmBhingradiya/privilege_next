@@ -1,0 +1,263 @@
+.inner_container {
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 60px 0 80px 0;
+}
+.main_heading h2 {
+  color: #fff;
+  text-align: center;
+  font-family: "Mories", serif;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+  padding: 0px 0 60px 0;
+}
+.membership_card_image {
+  width: 30%;
+  margin: 0 auto;
+  border-radius: 18px;
+}
+.membership_card_image img {
+  transition: 0.8s ease;
+}
+
+.membership_card_image img:hover {
+  transform: scale(1.1);
+}
+
+.membership_card_desc {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px auto 40px auto;
+}
+.membership_fees > p:first-child,
+.membership_validity > p:first-child,
+.membership_points > p:first-child {
+  color: #936e4e;
+  font-family: "Afacad", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.membership_fees > p:nth-child(2n),
+.membership_validity > p:nth-child(2n),
+.membership_points > p:nth-child(2n) {
+  color: #fff;
+  font-family: "Afacad", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+  text-align: center;
+}
+
+/*Dynamic class css start*/
+.diamond_card h2 {
+  color: #c89629;
+}
+.diamond_card > p:nth-child(2n) {
+  color: #000;
+}
+.diamond_card button {
+  background: #936e4e;
+  color: #fff;
+  transition: 0.4s ease, box-shadow 0.3s ease-in-out;
+}
+.reserve_card button {
+  transition: 0.4s ease, box-shadow 0.3s ease-in-out;
+  color: #ad8e72;
+}
+.reserve_card button:hover {
+  background: #ad8e72;
+  transform: scale(1.1);
+  color: #fff;
+  box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.2);
+  /* text-shadow: 10px 10px 2px rgba(0, 0, 0, 0.2); */
+}
+.diamond_card button:hover {
+  background: #dfc7ab;
+  transform: scale(1.1);
+  color: #9e6735;
+  box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.2);
+  /* text-shadow: 10px 10px 2px rgba(0, 0, 0, 0.2); */
+}
+.platinum_card button:hover {
+  background: #dfc7ab;
+  transform: scale(1.1);
+  color: #9e6735;
+  box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.2);
+  /* text-shadow: 10px 10px 2px rgba(0, 0, 0, 0.2); */
+}
+.gold_card button:hover {
+  background: #dfc7ab;
+  transform: scale(1.1);
+  color: #9e6735;
+  box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.2);
+}
+.platinum_card h2 {
+  color: #c89629;
+}
+.platinum_card > p:first-child,
+.gold_card > p:first-child {
+  color: #936e4e;
+}
+.platinum_card p:nth-child(2),
+.gold_card p:nth-child(2) {
+  color: #000;
+}
+.platinum_card button {
+  background: #b8863d;
+  color: #fff;
+  transition: 0.4s ease, box-shadow 0.3s ease-in-out;
+}
+
+.gold_card h2 {
+  color: #c89629;
+}
+
+.gold_card button {
+  background: #936e4e;
+  color: #fff;
+  transition: 0.4s ease, box-shadow 0.3s ease-in-out;
+}
+
+/*Dynamic class css End*/
+
+/*Button Css start*/
+.membership_button_container {
+  margin: 0 auto;
+  width: fit-content;
+  position: relative;
+}
+.btn a {
+  text-decoration: none !important;
+}
+.membership_button_container button {
+  /* color: #fff; */
+  /* text-align: center; */
+  /* font-family: "Afacad", sans-serif; */
+  /* font-size: 16px; */
+  /* font-style: normal; */
+  /* font-weight: 400; */
+  /* line-height: normal; */
+  border-radius: 7px;
+  border: none;
+  /* padding: 8px 25px; */
+  cursor: pointer;
+  background: linear-gradient(270deg, #e4d264 0%, #b0843f 100%);
+}
+.btn {
+  width: 170px;
+  height: 40px;
+  cursor: pointer;
+  background: #ad8e72;
+  border: 1px solid #ad8e72;
+  outline: none;
+  transition: 0.6s ease-in-out;
+  border-radius: 7px;
+}
+
+.btn svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  fill: none;
+  stroke: #fff;
+  stroke-dasharray: 150 480;
+  stroke-dashoffset: 150;
+  transition: 0.6s ease-in-out;
+}
+
+.btn:hover {
+  transition: 0.6s ease-in-out;
+  background: linear-gradient(270deg, #fffefa 0%, #d6a860 100%);
+}
+
+.btn:hover svg {
+  stroke-dashoffset: -480;
+}
+
+.btn span {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  transition: 0.5s ease-in-out;
+}
+.btn:hover span {
+  color: #9e6735;
+  font-weight: 600;
+}
+/*Button Css end*/
+.membership_slider {
+  padding: 60px 0 75px 0;
+}
+/* membership slider css start */
+.slider_image_container {
+  width: 98% !important;
+  margin: 0 auto;
+}
+/* membership slider css end */
+
+.contactInfoDivider {
+  background: #b18640;
+  width: 1px;
+  height: 60px;
+  margin: 20px 0;
+}
+@media only screen and (max-width: 1200px) {
+  .membership_card_desc {
+    width: 60%;
+  }
+  .main_heading h2 {
+    font-size: 38px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .membership_card_desc {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .membership_card_image {
+    width: 60%;
+  }
+  .membership_card_desc {
+    width: 80%;
+  }
+  .main_heading h2 {
+    font-size: 32px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .membership_card_image {
+    width: 80%;
+  }
+  .membership_fees > p:first-child,
+  .membership_validity > p:first-child,
+  .membership_points > p:first-child {
+    font-size: 16px;
+  }
+
+  .membership_fees > p:nth-child(2n),
+  .membership_validity > p:nth-child(2n),
+  .membership_points > p:nth-child(2n) {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .main_heading h2 {
+    font-size: 26px;
+  }
+  .membership_card_desc {
+    width: 90%;
+  }
+}

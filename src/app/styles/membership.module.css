@@ -1,0 +1,317 @@
+.container {
+  background: url("/membership_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 60px 0 100px 0;
+}
+.membershipCard {
+  transition: transform 2s ease-out;
+  /* Default size */
+}
+
+.boxHover {
+  transform: scale(1.01);
+}
+
+.adjacentBox {
+  transform: scale(0.9);
+}
+
+.distantBox {
+  transform: scale(0.85);
+}
+.heading {
+  color: #2c392c;
+  text-align: center;
+  font-family: "Mories", serif;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 75%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+.heading_hr {
+  width: 5%;
+  margin: 0 auto;
+  border: 1px solid #2c392c;
+}
+.sub_heading {
+  color: #2c392c;
+  font-family: "Afacad", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2;
+  width: 60%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 25px 0 40px 0;
+}
+.membershipContainer {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 20px 0;
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.membershipCard {
+  transition: transform 0.3s ease, flex 0.3s ease;
+  position: relative;
+  cursor: pointer;
+  flex: 1;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.membershipCard img {
+  /* max-width: 260px; */
+  width: 100%;
+  transition: all 0.5s ease 0.1s;
+  border-radius: 10px;
+  /* box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px; */
+}
+
+.active,
+.membershipCard:hover {
+  /* transform: scale(1.18); */
+  /* z-index: 10; */
+}
+.membershipCard:hover {
+  flex-grow: 1.2;
+  /* transform: scale(1.18); */
+}
+.invitation {
+  transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px);
+  font-family: "Afacad", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0;
+  padding-bottom: 5px;
+}
+.title {
+  transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px);
+  font-family: "Mories", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  margin: 0;
+  padding-bottom: 25px;
+}
+.cardInfo {
+  padding: 10px;
+  transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px);
+  font-family: "Afacad", sans-serif;
+}
+.card_span {
+  color: #936e4e;
+}
+.membershipFees {
+  font-family: "Afacad", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  margin: 5px 0;
+}
+/* Show the text when the card is active or hovered */
+.cardInfo,
+.buttonDiv {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.active .cardInfo,
+.active .buttonDiv,
+.active .title,
+.active .invitation,
+.membershipCard:hover .cardInfo,
+.membershipCard:hover .title,
+.membershipCard:hover .invitation,
+.membershipCard:hover .buttonDiv {
+  opacity: 1;
+  visibility: visible;
+}
+
+.buttonDiv {
+  transition: transform 0.3s ease; /* Add a transition for the button */
+}
+
+.button {
+  padding: 8px 20px;
+  background-color: #ad8e72;
+  overflow: hidden;
+  color: #fff;
+  text-align: center;
+  font-family: "Afacad", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 7px;
+  border: none;
+  margin-top: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  transition: 0.4s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.button:hover {
+  /* background: #dfc7ab; */
+  transform: scale(1.1);
+  /* color: #2c392c; */
+  box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.2);
+  /* text-shadow: 10px 10px 2px rgba(0, 0, 0, 0.2); */
+}
+.hr {
+  width: 35%;
+  margin: 15px 0;
+  border: 1px solid #ad8e72;
+}
+.btn {
+  width: 120px;
+  height: 40px;
+  cursor: pointer;
+  background: #ad8e72;
+  border: 1px solid #ad8e72;
+  outline: none;
+  transition: 0.6s ease-in-out;
+  border-radius: 7px;
+}
+
+.btn svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  fill: none;
+  stroke: #fff;
+  stroke-dasharray: 150 480;
+  stroke-dashoffset: 150;
+  transition: 0.6s ease-in-out;
+}
+
+.btn:hover {
+  transition: 0.6s ease-in-out;
+  /* background: #dfc7ab; */
+}
+
+.btn:hover svg {
+  stroke-dashoffset: -480;
+}
+
+.btn span {
+  color: #fff;
+  font-size: 16px;
+  font-weight: normal;
+  transition: 0.5s ease-in-out;
+}
+.btn:hover span {
+  /* color: #9e6735; */
+  font-weight: 600;
+}
+.buttonDiv {
+  position: relative;
+}
+.btn a {
+  text-decoration: none !important;
+}
+@media only screen and (max-width: 1330px) {
+  .sub_heading {
+    font-size: 18px;
+    width: 80%;
+  }
+  .title {
+    font-size: 24px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .membershipContainer {
+    max-width: 80%;
+  }
+  .heading {
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .sub_heading {
+    padding-bottom: 60px;
+  }
+  .button {
+    font-size: 14px;
+  }
+  .membershipContainer {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 60px;
+  }
+  .membershipCard {
+    width: 46%;
+  }
+  .membershipCard img {
+    max-width: 320px;
+  }
+  .active,
+  .membershipCard:hover {
+    transform: scale(1);
+    z-index: 10;
+  }
+
+  .title,
+  .invitation,
+  .cardInfo,
+  .buttonDiv {
+    opacity: 1;
+    visibility: visible;
+  }
+  .sub_heading {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .membershipCard {
+    width: 100%;
+  }
+  .membershipContainer {
+    row-gap: 40px;
+  }
+  .membershipCard img {
+    max-width: max-content;
+  }
+  .heading {
+    font-size: 26px;
+    width: 80%;
+  }
+  .sub_heading {
+    font-size: 16px;
+    width: 80%;
+  }
+  .membershipFees {
+    font-size: 16px;
+  }
+
+  .title {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .heading {
+    font-size: 28px;
+  }
+  .heading {
+    width: 80%;
+  }
+  .sub_heading {
+    width: 80%;
+  }
+}

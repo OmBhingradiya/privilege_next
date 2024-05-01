@@ -1,0 +1,379 @@
+.privileges_heading {
+  color: #ad8e72;
+  font-family: "Afacad", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.inner_container {
+  cursor: url("https://www.thailandprivilege.co.th/_next/static/media/cursor-btn.c84d7480.svg"),
+    auto;
+}
+.privileges_text {
+  font-family: "Mories", serif;
+  color: #fff;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 38px;
+  transition: color 0.4s ease;
+  margin: 0;
+}
+.textDescriSubDiv {
+  margin: 0 0 40px 0;
+}
+.textDescriSubDiv:hover .privileges_text {
+  background: linear-gradient(
+    100.23deg,
+    #ad803c,
+    #b0803d 16.43%,
+    #ebda80 80.41%,
+    #ead968
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* font-weight: 700; */
+}
+.privileges_hr {
+  width: 8%;
+  margin: 0;
+  border: 1px solid #fff;
+}
+.contactInfoDivider {
+  background: #fff;
+  width: 80px;
+  height: 1px;
+  margin: 30px 0;
+}
+@media only screen and (max-width: 992px) {
+  .contactInfoDivider {
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .privileges_text {
+    font-size: 36px;
+  }
+  .textDescriSubDiv {
+    margin: 0 0 50px 0;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .privileges_text {
+    font-size: 30px;
+  }
+  .textDescriSubDiv {
+    margin: 0 0 30px 0;
+  }
+  .privileges_heading {
+    font-size: 24px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .privileges_text {
+    font-size: 28px;
+  }
+  .textDescriSubDiv {
+    margin: 0 0 20px 0;
+  }
+  .privileges_heading {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .privileges_text {
+    font-size: 24px;
+  }
+  .textDescriSubDiv {
+    margin: 0 0 20px 0;
+  }
+  .privileges_heading {
+    font-size: 18px;
+  }
+}
+
+.customCursor {
+  position: fixed;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: #ad8e72;
+  background-size: contain;
+  background-repeat: no-repeat;
+  pointer-events: none;
+  z-index: 9999;
+  display: none;
+}
+
+.customCursor span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  color: #fff;
+}
+.customMobileCursor {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: linear-gradient(
+    135deg,
+    #ad803c,
+    #b0803d 27.6%,
+    #d2b957 88.54%,
+    #ead968
+  );
+  /* background-image: url('./plus.png');  */
+  background-size: contain;
+  background-repeat: no-repeat;
+  pointer-events: none;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 30px;
+  bottom: 40%;
+  cursor: pointer;
+}
+.customMobileCursor span {
+  font-size: 25px;
+  color: #dcdcdc;
+  font-weight: 400;
+}
+.image_gallery:hover .customCursor {
+  display: block;
+}
+.image_gallery {
+  cursor: none;
+}
+
+/* ===================================NEW CSS===================================== */
+.imagecontainer {
+  overflow: hidden;
+}
+.textDescriMainInnerDiv {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.changingImg {
+  width: 100%;
+  transition: transform 1.2s ease-in-out;
+  filter: brightness(0.35);
+  display: flex;
+}
+
+.zoomin {
+  animation: zoom-in 2s forwards;
+}
+
+@keyframes zoom-in {
+  0% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.imageTextMainDiv {
+  position: relative;
+}
+
+.textDescriMainDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.textDescription {
+  color: #fff;
+  margin: 0;
+  text-align: right;
+  font-size: 18px;
+  transition: 0.5s all ease;
+}
+
+.textDescriSubDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.textDescriInnerDiv {
+  width: 80%;
+}
+
+.textDescriDiv {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.mobPrivMainDiv {
+  display: none;
+}
+.mobPrivDiv {
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../public/privileges-stay-respon.jpg"); */
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  position: relative;
+}
+.mobPrivDiv {
+  overflow: hidden;
+  background-size: 100%;
+  transition: background-size 0.8s ease;
+}
+.mobPrivDiv:hover {
+  background-size: 120%;
+}
+.mobPrivHead {
+  font-family: "Mories", serif;
+  color: #fff;
+  font-weight: 400;
+  font-size: 28px;
+  margin: 0 0 10px 0;
+  transition: color 0.6s ease;
+}
+.mobPrivDiv:hover .mobPrivHead {
+  color: #eed113;
+}
+
+.mobPrivPara {
+  color: #fff;
+  margin: 0;
+  font-size: 18px;
+}
+.mobPrivSubDiv {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 70px 0;
+}
+
+.mobPrivParaDiv {
+  width: 50%;
+  margin-top: 20px;
+}
+.navLinkDiv a {
+  text-decoration: none !important;
+  cursor: inherit;
+}
+@media only screen and (max-width: 1508px) {
+  .privileges_text {
+    font-size: 43px;
+  }
+  .textDescriSubDiv {
+    margin: 0 0 30px 0;
+  }
+
+  .privileges_heading {
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 1322px) {
+  .privileges_text {
+    font-size: 37px;
+  }
+  .textDescriSubDiv {
+    margin: 0 0 23px 0;
+  }
+  .privileges_heading {
+    font-size: 26px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .textDescriMainInnerDiv {
+    width: 80%;
+  }
+
+  .privileges_text {
+    font-size: 34px;
+  }
+  .textDescriSubDiv {
+    margin: 0 0 20px 0;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .privileges_text {
+    font-size: 30px;
+  }
+  .textDescriSubDiv {
+    margin: 0 0 15px 0;
+  }
+  .privileges_heading {
+    font-size: 23px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .privileges_text {
+    font-size: 27px;
+  }
+  .textDescriSubDiv {
+    margin: 0 0 11px 0;
+  }
+
+  .privileges_heading {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 860px) {
+  .privileges_text {
+    margin: 0 0;
+    font-size: 24px;
+  }
+
+  .privileges_heading {
+    font-size: 18px;
+  }
+
+  .textDescriDiv,
+  .textTitleDiv {
+    width: 50%;
+  }
+
+  .textDescriInnerDiv {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .desktopPrivMainDiv {
+    display: none;
+  }
+
+  .mobPrivMainDiv {
+    display: block;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .mobPrivParaDiv {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .mobPrivHead {
+    font-size: 24px;
+  }
+  .mobPrivPara {
+    font-size: 16px;
+  }
+  .mobPrivParaDiv {
+    margin-top: 10px;
+  }
+}
+.navLinkDiv a:focus {
+  outline: none;
+}

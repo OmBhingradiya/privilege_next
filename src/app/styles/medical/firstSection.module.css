@@ -1,0 +1,137 @@
+.container {
+  background: linear-gradient(101deg, #ac8d71 0%, #fce7cf 50.5%, #d7bea0 100%);
+  padding-bottom: 60px;
+}
+.inner_container {
+  border-radius: 0px 0px 21px 21px;
+  background: #f2e6d6;
+  margin: 0 auto;
+  padding: 0 100px 50px 100px;
+  max-width: 70%;
+}
+.main_heading h1 {
+  color: #2c392c;
+  text-align: center;
+  font-family: "Mories", serif;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+  padding: 30px 0 20px 0;
+}
+.sub_heading h2 {
+  color: #2c392c;
+  text-align: center;
+  font-family: "Afacad", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+  padding-bottom: 30px;
+}
+.medcare_image {
+  position: relative;
+}
+.medcare_image img {
+  width: 100%;
+}
+.thailand_svg img {
+  position: absolute;
+  width: 70px;
+  right: -25px;
+  top: -25px;
+  z-index: 1;
+}
+.main_image {
+  position: relative;
+  z-index: 1;
+  display: flex;
+}
+
+.thailand_svg {
+  cursor: pointer;
+  perspective: 1000px;
+  z-index: 10;
+  position: absolute;
+  width: 80px;
+  right: 0;
+  top: -10px;
+}
+
+.thailand_svg img {
+  width: 100%;
+  transform: rotateY(0deg);
+  transition: transform 1s ease-in-out;
+}
+
+.thailand_svg:hover img {
+  transform: rotateY(180deg); /* Rotate the image on hover */
+}
+@media only screen and (max-width: 1440px) {
+  .main_heading h1 {
+    font-size: 36px;
+  }
+  .sub_heading h2 {
+    font-size: 28px;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  .inner_container {
+    padding-top: 100px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .main_heading h1 {
+    font-size: 32px;
+  }
+  .sub_heading h2 {
+    font-size: 24px;
+  }
+  .inner_container {
+    max-width: 80%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .inner_container {
+    padding: 60px 40px 40px 40px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .main_heading h1 {
+    font-size: 28px;
+  }
+  .sub_heading h2 {
+    font-size: 22px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .main_heading h1 {
+    font-size: 24px;
+  }
+  .thailand_svg img {
+    width: 50px;
+  }
+  .sub_heading h2 {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .main_heading h1 {
+    font-size: 20px;
+  }
+  .inner_container {
+    padding: 40px 20px 20px 20px;
+  }
+
+  .sub_heading h2 {
+    font-size: 16px;
+  }
+  .thailand_svg img {
+    width: 40px;
+    top: -15px;
+    right: -15px;
+  }
+}

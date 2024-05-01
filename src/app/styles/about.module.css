@@ -1,0 +1,769 @@
+.secondSection_container {
+  max-width: 70%;
+  margin: 0 auto;
+}
+.secondSection_main_heading h2 {
+  color: #2c392c;
+  text-align: center;
+  font-family: "Mories", serif;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+  padding: 60px 0 30px 0;
+}
+.secondSection_main_hr {
+  width: 7%;
+  margin: 0 auto;
+  height: 1px;
+  border: none;
+  background: #ad8e72;
+}
+.secondSection_first_text {
+  color: #2c392c;
+  font-family: "Afacad", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2;
+  text-align: center;
+  margin: 0;
+  padding: 40px 30px 20px 30px;
+}
+.uniquenessMainDiv {
+  max-width: 70%;
+  margin: 0 auto;
+  padding: 120px 0 150px 0;
+}
+
+.uniqueDiv {
+  display: flex;
+  align-items: center;
+  border: 1px solid #000;
+  border-radius: 43px 0 43px 0;
+  justify-content: space-between;
+}
+
+.uniquenessFirstPart {
+  /* width: 40%; */
+  display: flex;
+  margin: -1px;
+  overflow: hidden;
+  border-radius: 40px 0;
+}
+.uniquenessFirstPart img {
+  transition: 0.8s ease;
+}
+.uniquenessFirstPart img:hover {
+  transform: scale(1.2);
+}
+.uniquenessSecondPart {
+  /* width: 17%; */
+  margin-left: -60px;
+}
+
+.uniquenessThirdPart {
+  width: 48%;
+  padding-left: 60px;
+  padding-right: 70px;
+}
+
+.uniquenessHeading {
+  font-family: "Mories", serif;
+  font-size: 38px;
+  margin: 0 0 23px 0;
+}
+
+.uniquenessContent {
+  font-family: "Afacad", sans-serif;
+  color: #6d766d;
+  font-size: 18px;
+  text-align: justify;
+  margin: 26px 0 0 0;
+}
+
+.uniquenessConDivider {
+  background: #ad8e72;
+  width: 150px;
+  height: 1px;
+}
+
+.uniqueSecImgDiv {
+  border: 5px solid #fff;
+  box-shadow: 0 0 20px 0px grey;
+  border-radius: 32.03px 0;
+  display: flex;
+  margin: 15px 0;
+  position: relative;
+}
+.uniqueSecImgDiv img {
+  border-radius: 27.03px 0;
+}
+
+.uniqueSecImgMainDiv {
+  position: relative;
+}
+
+.pinSvgDiv {
+  position: absolute;
+  right: -14px;
+  top: -14px;
+  width: 43px;
+  z-index: 1;
+}
+.roundSvgDiv img {
+  position: absolute;
+  right: 7px;
+  top: 10px;
+  width: 43px;
+  z-index: 1;
+}
+
+.roundSvgDiv {
+  cursor: pointer;
+  perspective: 1000px;
+  z-index: 10;
+  position: absolute;
+  width: 80px;
+  right: 0;
+  top: -10px;
+}
+
+.roundSvgDiv img {
+  width: 100%;
+  transform: rotateY(0deg);
+  transition: transform 1s ease-in-out;
+}
+
+.roundSvgDiv:hover img {
+  transform: rotateY(180deg); /* Rotate the image on hover */
+}
+
+.uniquenessSubDiv {
+  position: relative;
+}
+
+.roundSvgDiv {
+  position: absolute;
+  top: -33px;
+  right: -30px;
+  width: 80px;
+}
+
+.uniqueImgsDiv {
+  width: 52%;
+  display: flex;
+  align-items: center;
+}
+.listItemSlideDiv {
+  cursor: pointer;
+}
+@media only screen and (max-width: 1200px) {
+  .secondSection_container {
+    max-width: 80%;
+  }
+  .secondSection_main_heading h2 {
+    font-size: 30px;
+  }
+  .uniquenessHeading {
+    font-size: 30px;
+    margin: 0 0 18px 0;
+  }
+  .uniquenessThirdPart {
+    padding-left: 43px;
+    padding-right: 43px;
+  }
+  .uniquenessMainDiv {
+    max-width: 80%;
+  }
+}
+@media only screen and (max-width: 1028px) {
+  .uniquenessContent {
+    margin: 20px 0 0 0;
+  }
+
+  .roundSvgDiv {
+    top: -29px;
+    right: -27px;
+    width: 70px;
+  }
+
+  .uniqueImgsDiv {
+    width: 50%;
+  }
+
+  .pinSvgDiv {
+    width: 35px;
+  }
+  .uniquenessHeading {
+    font-size: 27px;
+    margin: 0 0 14px 0;
+  }
+  .uniquenessContent {
+    font-size: 16px;
+    margin: 13px 0 0 0;
+  }
+}
+
+@media only screen and (max-width: 930px) {
+  .uniquenessConDivider {
+    width: 110px;
+  }
+
+  .uniquenessThirdPart {
+    padding-left: 37px;
+    padding-right: 37px;
+  }
+}
+
+@media only screen and (max-width: 830px) {
+  .uniqueImgsDiv {
+    width: 48%;
+  }
+
+  .uniquenessThirdPart {
+    padding-left: 28px;
+    padding-right: 28px;
+  }
+
+  .uniqueImgsDiv {
+    width: 100%;
+  }
+
+  .uniquenessThirdPart {
+    padding-left: 0;
+  }
+
+  .pinSvgDiv {
+    width: 40px;
+  }
+
+  .uniquenessThirdPart {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 40px;
+  }
+  .uniqueDiv {
+    flex-direction: column;
+    border: none;
+  }
+
+  .roundSvgDiv {
+    display: none;
+  }
+
+  .uniquenessMainDiv {
+    padding: 70px 0 70px 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .uniqueImgsDiv {
+    width: 100%;
+  }
+
+  .uniquenessThirdPart {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .secondSection_main_heading h2 {
+    font-size: 26px;
+  }
+  .secondSection_first_text {
+    font-size: 18px;
+  }
+  .uniquenessContent {
+    font-size: 16px;
+  }
+  .uniquenessHeading {
+    font-size: 26px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .pinSvgDiv {
+    width: 33px;
+    right: -12px;
+    top: -12px;
+  }
+}
+
+@media only screen and (max-width: 395px) {
+  .pinSvgDiv {
+    width: 28px;
+    right: -11px;
+    top: -11px;
+  }
+}
+/* ======================================================================================== */
+
+.graceTopDiv {
+  background: url("/graceBg.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.graceMainDiv {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.visionHead {
+  color: #d7b55c;
+  font-family: "Afacad", sans-serif;
+  font-size: 24px;
+}
+
+.visionCont {
+  color: #ffffffb5;
+  font-size: 18px;
+}
+
+.visionMainBox {
+  background: #000000c4;
+  border-radius: 30px 0px 30px 0;
+  padding: 50px 40px 45px 40px;
+}
+
+.missionMainBox {
+  background: #000000c4;
+  padding: 50px 40px 50px 40px;
+  border-radius: 0 30px 0 30px;
+}
+
+.brandMainBox {
+  background: #000000c4;
+  padding: 45px 40px 45px 40px;
+  border-radius: 0 30px 0 30px;
+  height: 100%;
+}
+
+.graceSubDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 130px 0;
+}
+
+.graceFirstSec {
+  width: 28%;
+}
+
+.graceSecondSec {
+  width: 45%;
+}
+
+.visionHead,
+.visionCont {
+  margin: 0;
+}
+
+.visionHead {
+  margin-bottom: 13px;
+}
+
+.graceFirstSec {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.visionContUl {
+  padding-left: 10px;
+}
+
+.missionMainBox,
+.visionMainBox {
+  position: relative;
+}
+
+.gracePinSvgDiv {
+  position: absolute;
+  top: -22px;
+  left: -16px;
+  width: 50px;
+  transform: rotate(273deg);
+}
+
+.brandSubDivs {
+  display: flex;
+  align-items: center;
+  margin: 8px 0;
+  gap: 13px;
+}
+
+.brandLetterDiv {
+  width: 13%;
+}
+
+.brandContDiv {
+  width: 85%;
+}
+
+.brandLetter {
+  margin: 0;
+  color: #fff;
+  font-family: "Mories", serif;
+  font-size: 73px;
+}
+@media only screen and (max-width: 1430px) {
+  .graceFirstSec {
+    width: 35%;
+  }
+}
+
+@media only screen and (max-width: 1358px) {
+  .graceSecondSec {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 1248px) {
+  .visionMainBox {
+    padding: 50px 33px 45px 33px;
+  }
+  .missionMainBox {
+    padding: 50px 33px 50px 33px;
+  }
+
+  .brandMainBox {
+    padding: 45px 33px 45px 34px;
+  }
+}
+@media only screen and (max-width: 1176px) {
+  .graceFirstSec {
+    gap: 25px;
+  }
+  .missionMainBox {
+    padding: 50px 33px 24px 33px;
+  }
+}
+
+@media only screen and (max-width: 1087px) {
+  .graceFirstSec {
+    width: 30%;
+  }
+
+  .graceSubDiv {
+    padding: 90px 0;
+  }
+}
+
+@media only screen and (max-width: 1005px) {
+  /* .graceFirstSec {
+    width: 31%;
+  }
+
+  .graceSecondSec {
+    width: 55%;
+  } */
+}
+
+@media only screen and (max-width: 967px) {
+  .graceFirstSec {
+    width: 33%;
+  }
+}
+
+@media only screen and (max-width: 910px) {
+  .graceFirstSec {
+    width: 38%;
+  }
+  .graceSecondSec {
+    width: 60%;
+  }
+  /* .graceMainDiv {
+    max-width: 85%;
+  } */
+}
+
+@media only screen and (max-width: 860px) {
+  /* .graceFirstSec {
+    width: 36%;
+  } */
+
+  .graceSubDiv {
+    gap: 23px;
+  }
+}
+
+@media only screen and (max-width: 795px) {
+  .brandSubDivs {
+    gap: 20px;
+  }
+}
+
+@media only screen and (max-width: 763px) {
+  .graceSubDiv {
+    flex-direction: column;
+  }
+
+  .graceFirstSec {
+    flex-direction: row;
+  }
+
+  .graceFirstSec,
+  .graceSecondSec {
+    width: 100%;
+  }
+
+  .visionMainBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .graceSubDiv {
+    padding: 60px 0;
+  }
+
+  .gracePinSvgDiv {
+    top: -16px;
+    left: -11px;
+    width: 37px;
+  }
+}
+
+@media only screen and (max-width: 610px) {
+  .graceFirstSec {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .brandLetterDiv {
+    width: 15%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .brandMainBox {
+    padding: 45px 20px 45px 20px;
+  }
+}
+/* ======================================================================================== */
+
+.valuesMainDiv {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.valuesSubDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 0px;
+}
+
+.valuesDivider {
+  background: #ad8e72;
+  height: 100px;
+  width: 1px;
+}
+
+.valuesImgDiv {
+  width: 45%;
+}
+.valuesImgDiv {
+  overflow: hidden;
+  border: 4px solid transparent;
+  transition: 0.6s ease;
+  border-radius: 34px 0;
+}
+
+.valuesImgDiv img {
+  transition: 0.6s ease;
+  display: flex;
+
+  width: 100%;
+}
+.valuesImgDiv img:hover {
+  transform: scale(1.2);
+}
+.valuesImgDiv:hover {
+  border: 4px solid #ad8f73;
+  border-radius: 34px 0;
+}
+
+.valuesDividerDiv {
+  width: 12%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.valuesParaDiv {
+  width: 40%;
+}
+
+.valuesPara {
+  text-align: justify;
+  margin: 0;
+  color: #2c392c;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .valuesImgDiv {
+    width: 47%;
+    display: flex;
+  }
+
+  .valuesDividerDiv {
+    width: 10%;
+  }
+
+  .valuesParaDiv {
+    width: 43%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .valuesMainDiv {
+    max-width: 80%;
+  }
+  .valuesPara {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 930px) {
+  .valuesDividerDiv {
+    width: 7%;
+  }
+
+  .valuesParaDiv {
+    width: 46%;
+  }
+}
+
+@media only screen and (max-width: 766px) {
+  .valuesSubDiv {
+    flex-direction: column;
+  }
+
+  .valuesDivider {
+    width: 90px;
+    height: 1px;
+    margin: 30px 0 20px 0;
+  }
+
+  .valuesDividerDiv {
+    width: unset;
+  }
+
+  .valuesImgDiv,
+  .valuesParaDiv {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .valuesImgDiv,
+  .valuesParaDiv {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .valuesPara {
+    font-size: 16px;
+  }
+}
+/* ======================================================================================== */
+.shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 1;
+  transition: opacity 0.6s ease;
+  border-radius: 27.03px 0;
+}
+
+.uniqueSecImgDiv:hover .shadow {
+  opacity: 0.1;
+}
+
+/*About Milestones Slider css start*/
+.slider_main_heading h2 {
+  color: #2c392c;
+  font-family: "Mories", serif;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.hr {
+  width: 8%;
+  margin: 0 auto;
+  border: 1px solid #ad8e72;
+}
+.line {
+  border: 2px solid #ad8e72;
+  margin-bottom: -25px;
+}
+.svg_box {
+  text-align: center;
+  cursor: pointer;
+}
+
+.slider_year p {
+  text-align: center;
+  color: #b4823c;
+  font-family: "Mories, sans-serif";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2;
+  margin: 0;
+  margin: 25px 0 52px 0;
+}
+.svg_box svg circle {
+  stroke-width: 6px;
+}
+
+.aboutSliderMainDiv {
+  max-width: 70%;
+  margin: 50px auto 0 auto;
+  padding: 50px 0;
+}
+
+.slideDescriDetail {
+  text-align: center;
+}
+.text_container {
+  list-style-position: outside;
+}
+.slider_2020_container {
+  /* display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  width: 50%; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .aboutSliderMainDiv {
+    max-width: 80%;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .visionCont {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .aboutSliderMainDiv {
+    max-width: 100%;
+  }
+}
+/*About Milestones Slider css end*/

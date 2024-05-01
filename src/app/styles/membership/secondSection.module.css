@@ -1,0 +1,249 @@
+.inner_container {
+  max-width: 70%;
+  margin: 0 auto 40px auto;
+}
+.main_heading h2 {
+  color: #2c392c;
+  text-align: center;
+  font-family: "Mories", serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 60px auto 40px auto;
+  width: 70%;
+}
+.main_hr {
+  width: 7%;
+  margin: 0 auto;
+  height: 1px;
+  border: none;
+  background: #ad8e72;
+}
+.main_text {
+  color: #2c392c;
+  font-family: "Afacad", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2;
+  text-align: center;
+  margin: 40px auto;
+  width: 70%;
+}
+.main_container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.first_container {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.second_container {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.first_container_image img {
+  width: 100%;
+}
+.second_container_image img {
+  width: 100%;
+}
+.first_container_image {
+  position: relative;
+}
+
+.absolute_container {
+  position: absolute;
+  bottom: 0;
+  transition: opacity 0.4s ease;
+  height: 100%;
+  width: 75%;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 0 0 10px 30px;
+}
+.absolute_container hr {
+  width: 30%;
+  border: none;
+  transition: opacity 0.4s ease;
+  height: 1px;
+  opacity: 1;
+  margin: 0;
+  background-image: linear-gradient(36deg, #ab8c71, #b89e78 31.77%, #ffead2);
+}
+.absolute_div {
+  height: 90px;
+  transition: opacity 0.4s ease;
+}
+.absolute_container p {
+  margin: 15px 0 0 0;
+  color: #fff;
+  font-family: "Mories", serif;
+  font-size: 26px;
+  transition: opacity 0.4s ease;
+  font-weight: 400;
+}
+.second_container_image {
+  position: relative;
+}
+
+/* .absolute_container:hover p {
+  opacity: 0;
+}
+.absolute_container:hover hr {
+  opacity: 0;
+} */
+.first_container_image {
+  overflow: hidden;
+  display: flex;
+}
+.first_container_image img {
+  height: 100%;
+  object-fit: cover;
+  transition: 0.6s ease;
+}
+.first_container_image:hover img {
+  transform: scale(1.2);
+}
+.first_container_image:hover .absolute_div {
+  opacity: 0;
+}
+.second_container_image:hover img {
+  transform: scale(1.2);
+}
+.second_container_image:hover .absolute_div {
+  opacity: 0;
+}
+
+.absolute_container:hover .first_container_image p {
+  display: none;
+}
+/* .absolute_div:hover .first_container_image img {
+  transform: scale(1.2) !important;
+} */
+.second_container_image:hover p {
+  opacity: 0;
+}
+.second_container_image:hover hr {
+  opacity: 0;
+}
+.second_container_image {
+  overflow: hidden;
+}
+.second_container_image img {
+  height: 100%;
+  object-fit: cover;
+  transition: 0.6s ease;
+}
+
+@media only screen and (max-width: 1660px) {
+  .absolute_container p {
+    font-size: 22px;
+  }
+  .absolute_container {
+    padding-bottom: 0;
+  }
+}
+@media only screen and (max-width: 1440px) {
+  .main_heading h2 {
+    font-size: 36px;
+  }
+  .absolute_container p {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 1345px) {
+  .absolute_div {
+    height: 110px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .main_heading h2 {
+    font-size: 32px;
+  }
+  .inner_container {
+    max-width: 80%;
+  }
+  .main_text {
+    width: 80%;
+  }
+  .main_heading h2 {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .main_heading h2 {
+    font-size: 28px;
+  }
+  .main_hr {
+    width: 12%;
+  }
+  .first_container {
+    flex-direction: column;
+  }
+  .second_container {
+    flex-direction: column;
+  }
+  .absolute_div {
+    height: 90px;
+  }
+  .absolute_container p {
+    font-size: 22px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .main_heading h2 {
+    margin: 40px auto 25px auto;
+    font-size: 24px;
+  }
+  .main_hr {
+    width: 12%;
+  }
+  .main_text {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .main_heading h2 {
+    font-size: 20px;
+  }
+  .main_text {
+    margin: 30px auto;
+  }
+  .absolute_div {
+    height: 120px;
+  }
+}
+
+/* style for video Start*/
+.video_container {
+  background: linear-gradient(101deg, #ac8d71 0%, #fce7cf 50.5%, #d7bea0 100%);
+  padding: 60px 0;
+}
+.inner_video_container {
+  max-width: 70%;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+.main_video video {
+  border-radius: 0 30px;
+}
+@media only screen and (max-width: 1200px) {
+  .inner_video_container {
+    max-width: 80%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .video_container {
+    display: none;
+  }
+}
+/* style for video end*/
