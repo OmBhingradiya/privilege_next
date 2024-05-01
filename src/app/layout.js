@@ -5,10 +5,9 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   openGraph: {
-    title:
-      "Discover Thailand with the Elite Privilege Residence Program | Thailand Privilege",
+    title: "Explore Thailand: Elite Privilege Residence Program",
     description:
-      "Dive into the heart of Thailand with our Elite Privilege Residence Program. Explore long-term visa options, exclusive benefits, and a seamless transition to your new life in Thailand. Perfect for investors, retirees, and tourists seeking a privileged experience.",
+      "Explore Thailand's Elite Privilege Residence Program: Long-term visas, exclusive benefits & seamless transition for investors, retirees & tourists seeking a privileged experience.",
     url: "https://goldenprivilege/home.com",
     siteName: "Golden Privilege",
     images: [

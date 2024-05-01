@@ -92,10 +92,11 @@ const FirstSection = () => {
                     data-aos="fade-right"
                     width={76}
                     height={72}
-                    style={{
-                      width: "100%",
-                      height: "auto",
-                    }}
+                    // style={{
+                    //   width: "100%",
+                    //   height: "auto",
+                    // }}
+                    layout="responsive"
                   />
                 </div>
                 <div className={styles.homeImgDiv} data-aos="fade-up">

@@ -1,11 +1,11 @@
+import Head from "next/head";
 import Footer from "../components/subComponents/footer";
 import Header from "../components/subComponents/header";
 
 export const metadata = {
-  title:
-    "Discover Thailand with the Elite Privilege Residence Program | Thailand Privilege",
+  title: "Explore Thailand: Elite Privilege Residence Program",
   description:
-    "Dive into the heart of Thailand with our Elite Privilege Residence Program. Explore long-term visa options, exclusive benefits, and a seamless transition to your new life in Thailand. Perfect for investors, retirees, and tourists seeking a privileged experience.",
+    "Explore Thailand's Elite Privilege Residence Program: Long-term visas, exclusive benefits & seamless transition for investors, retirees & tourists seeking a privileged experience.",
   keywords:
     "Thailand Privilege, Thailand Privilege Residence Program, Elite Visa, Residence by Investment, Long-Term Stay, Privilege Card Members, Thai Retirement Visa, Golden Visa Thailand, Citizenship By Investment, Thailand Investment Visa, Residency Program, Long-Term Residence, Thailand Elite Privilege Visa, Privilege Entry Visa, Dual Citizenship, Thai Business Visa, Thailand Tour, Thailand Tourist, Tourist, Tourist Visa, Thailand Privilege Card Company Limited, Golden Visa, Thailand Residence Permit, Thailand Long Stay Visa, Thai Elite Visa, Exclusive Benefits, Thailand Privilege Card, Immigration to Thailand, Thailand immigration, Thailand Immigration Lawyer",
 };
@@ -13,6 +13,24 @@ export const metadata = {
 export default function Layout({ children }) {
   return (
     <div>
+      {/* <Head>
+        <script type="application/ld+json">
+          {`
+          {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Your Organization Name",
+            "url": "https://yourwebsite.com/",
+            "logo": "https://yourwebsite.com/logo.png",
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "+1-234-567-8901",
+              "contactType": "Customer Support"
+            }
+          }
+        `}
+        </script>
+      </Head> */}
       <Header />
       {children}
       <Footer />

@@ -75,6 +75,7 @@ const SecondSection = () => {
                   height={475}
                   layout="responsive"
                 />
+
                 <div className={styles.absolute_container}>
                   <div className={styles.absolute_div}>
                     <hr />

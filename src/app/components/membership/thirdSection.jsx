@@ -63,6 +63,10 @@ const ThirdSection = () => {
                           alt={item.title}
                           width={40}
                           height={40}
+                          style={{
+                            // width: "100%",
+                            height: "auto",
+                          }}
                         />
                       </div>
                     </div>
