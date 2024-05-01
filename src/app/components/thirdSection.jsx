@@ -319,7 +319,7 @@ const ThirdSection = () => {
         {mobileViewData.length > 0 &&
           mobileViewData.map((item, index) => {
             return (
-              <div className={styles.navLinkDiv}>
+              <div className={styles.navLinkDiv} key={index}>
                 <div
                   key={index}
                   className={styles.mobPrivDiv}

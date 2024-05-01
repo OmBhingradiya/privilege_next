@@ -20,7 +20,7 @@ const SecondSection = () => {
         <hr className={styles.main_hr} data-aos="fade-down" />
         <p className={styles.main_text} data-aos="fade-down">
           Embark on a journey of boundless freedom and exclusive privileges with
-          Golden Privilege's world-class residency program in Thailand,
+          Golden Privilege&apos;s world-class residency program in Thailand,
           unlocking unparalleled Thai lifestyle opportunities.
         </p>
       </div>

@@ -46,7 +46,7 @@
 }
 
 .uniquenessFirstPart {
-  /* width: 40%; */
+  width: 100%;
   display: flex;
   margin: -1px;
   overflow: hidden;
@@ -59,7 +59,7 @@
   transform: scale(1.2);
 }
 .uniquenessSecondPart {
-  /* width: 17%; */
+  width: 40%;
   margin-left: -60px;
 }
 

@@ -201,7 +201,7 @@ const About = () => {
                   <div className={styles.visionContDiv}>
                     <ul className={styles.visionContUl}>
                       <li className={styles.visionCont}>
-                        We offer Thailand's Privilege Residency Program,
+                        We offer Thailand&apos;s Privilege Residency Program,
                         providing special privileges and excellent experiences
                         to maximize member satisfaction.
                       </li>
