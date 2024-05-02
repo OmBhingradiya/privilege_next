@@ -11,8 +11,8 @@
 }
 .thailand_main_svg {
   width: 85px;
-  margin: 0 auto 30px auto;
-  padding-top: 30px;
+  margin: 0 auto 20px auto;
+  padding-top: 20px;
   cursor: pointer;
 }
 .main_heading h1 {
@@ -78,7 +78,7 @@
 }
 @media only screen and (max-width: 1280px) {
   .thailand_main_svg {
-    padding-top: 100px;
+    padding-top: 80px;
     padding-bottom: 0;
   }
 }
