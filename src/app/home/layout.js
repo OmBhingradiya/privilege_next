@@ -1,4 +1,3 @@
-import Head from "next/head";
 import Footer from "../components/subComponents/footer";
 import Header from "../components/subComponents/header";
 
@@ -13,24 +12,6 @@ export const metadata = {
 export default function Layout({ children }) {
   return (
     <div>
-      {/* <Head>
-        <script type="application/ld+json">
-          {`
-          {
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            "name": "Your Organization Name",
-            "url": "https://yourwebsite.com/",
-            "logo": "https://yourwebsite.com/logo.png",
-            "contactPoint": {
-              "@type": "ContactPoint",
-              "telephone": "+1-234-567-8901",
-              "contactType": "Customer Support"
-            }
-          }
-        `}
-        </script>
-      </Head> */}
       <Header />
       {children}
       <Footer />

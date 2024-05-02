@@ -178,7 +178,7 @@ const HighLight = () => {
           link: "https://www.medparkhospital.com/en-US/disease-and-treatment/pericarditis",
         },
         {
-          imageUrl: "/medical/10.png",
+          imageUrl: "/medical/11.png",
           name: "medical images",
           title: "Nasal Polyps",
           description:
@@ -186,7 +186,7 @@ const HighLight = () => {
           link: "https://www.medparkhospital.com/en-US/disease-and-treatment/nasal-polyps",
         },
         {
-          imageUrl: "/medical/10.png",
+          imageUrl: "/medical/12.png",
           name: "medical images",
           title: "Hypercalcemia",
           description:
