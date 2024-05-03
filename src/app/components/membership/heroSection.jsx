@@ -33,14 +33,14 @@ const HeroSection = ({ data }) => {
             data-aos="flip-right"
             data-aos-easing="ease-out-cubic"
           >
-            {data === "Membership" && (
+            {data !== "Contact" && (
               <Image
                 src="/pin_svg.svg"
                 alt="thailand svg"
                 width={132}
                 height={135}
                 style={{
-                  width: "100%",
+                  width: "80%",
                   height: "auto",
                 }}
               />
