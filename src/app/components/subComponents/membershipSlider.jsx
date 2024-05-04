@@ -39,7 +39,7 @@ const MembershipSlider = ({ imageProps }) => {
   return (
     <div className={styles.membership_slider_container} id="membership_slider">
       <Slider {...settings}>
-        {imageProps.length &&
+        {/* {imageProps.length &&
           imageProps.map((item, index) => {
             return (
               <div className={styles.slider_image_container} key={index}>
@@ -50,7 +50,7 @@ const MembershipSlider = ({ imageProps }) => {
                 />
               </div>
             );
-          })}
+          })} */}
       </Slider>
     </div>
   );

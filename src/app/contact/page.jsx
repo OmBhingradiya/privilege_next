@@ -327,7 +327,7 @@ const ContactUs = () => {
                         type="checkbox"
                         className={styles.contactFormFileCheckbox}
                       />
-                      I Have Read And Agree With The privacy policy
+                      I Have Read And agree With The Privacy Policy
                     </label>
                   </div>
                 </div>
