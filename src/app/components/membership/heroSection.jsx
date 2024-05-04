@@ -28,12 +28,12 @@ const HeroSection = ({ data }) => {
         }}
       >
         <div className={styles.inner_container}>
-          <div
-            className={styles.thailand_main_svg}
-            data-aos="flip-right"
-            data-aos-easing="ease-out-cubic"
-          >
-            {data !== "Contact" && (
+          {data !== "Contact" && (
+            <div
+              className={styles.thailand_main_svg}
+              data-aos="flip-right"
+              data-aos-easing="ease-out-cubic"
+            >
               <Image
                 src="/pin_svg.svg"
                 alt="thailand svg"
@@ -44,8 +44,8 @@ const HeroSection = ({ data }) => {
                   height: "auto",
                 }}
               />
-            )}
-          </div>
+            </div>
+          )}
           <div
             className={
               data === "Contact"
