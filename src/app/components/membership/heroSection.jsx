@@ -28,24 +28,24 @@ const HeroSection = ({ data }) => {
         }}
       >
         <div className={styles.inner_container}>
-          {data !== "Contact" && (
-            <div
-              className={styles.thailand_main_svg}
-              data-aos="flip-right"
-              data-aos-easing="ease-out-cubic"
-            >
-              <Image
-                src="/pin_svg.svg"
-                alt="thailand svg"
-                width={132}
-                height={135}
-                style={{
-                  width: "80%",
-                  height: "auto",
-                }}
-              />
-            </div>
-          )}
+          {/* {data !== "Contact" && ( */}
+          <div
+            className={styles.thailand_main_svg}
+            data-aos="flip-right"
+            data-aos-easing="ease-out-cubic"
+          >
+            <Image
+              src="/pin_svg.svg"
+              alt="thailand svg"
+              width={132}
+              height={135}
+              style={{
+                width: "80%",
+                height: "auto",
+              }}
+            />
+          </div>
+          {/* )} */}
           <div
             className={
               data === "Contact"

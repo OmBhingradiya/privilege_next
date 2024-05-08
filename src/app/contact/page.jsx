@@ -60,7 +60,7 @@ const ContactUs = () => {
                   width={132}
                   height={135}
                   style={{
-                    // width: "100%",
+                    width: "80%",
                     height: "auto",
                   }}
                 />

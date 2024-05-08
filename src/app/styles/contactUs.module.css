@@ -401,8 +401,8 @@
 .roundSvgDiv img {
   position: absolute;
   width: 70px;
-  right: -25px;
-  top: -25px;
+  right: -20px;
+  top: -20px;
   z-index: 1;
 }
 
