@@ -1,5 +1,6 @@
 {
   "name": "privilege_next",
+  "homepage": "https://goldenprivilege.com/",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -20,6 +21,8 @@
     "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
+    "@types/node": "20.12.11",
+    "@types/react": "18.3.2",
     "eslint": "^8",
     "eslint-config-next": "14.1.4"
   }

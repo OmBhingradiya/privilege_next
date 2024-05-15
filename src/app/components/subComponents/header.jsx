@@ -200,6 +200,21 @@ const Header = () => {
                       <div className={headerStyles.active_bottomLine}></div>
                     ) : null}
                   </div>
+                  <div className={headerStyles.linksDiv}>
+                    <div className={headerStyles.navLinkDiv}>
+                      {/* <a className={headerStyles.link_style} href="/medical"> */}
+                      <Link
+                        href="/bankok-hospital"
+                        activeClassName={`active ${headerStyles.headerLinks}`}
+                      >
+                        Bangkok Hospital
+                        {/* </a> */}
+                      </Link>
+                    </div>
+                    {pathName == "/bankok-hospital" ? (
+                      <div className={headerStyles.active_bottomLine}></div>
+                    ) : null}
+                  </div>
                   <div
                     className={`${headerStyles.linksDiv} ${headerStyles.toursDropDown}`}
                   >
@@ -402,6 +417,15 @@ const Header = () => {
                         onClick={handleLinkClick}
                       >
                         MedPark Hospital
+                      </Link>
+                    </div>
+                    <div className={headerStyles.linksDiv}>
+                      <Link
+                        href="/bankok-hospital"
+                        className={headerStyles.link_style}
+                        onClick={handleLinkClick}
+                      >
+                        Bankok hospital
                       </Link>
                     </div>
                     <div className={headerStyles.linksDiv}>

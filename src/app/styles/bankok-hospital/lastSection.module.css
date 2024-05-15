@@ -1,0 +1,305 @@
+.inner_container {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.main_text {
+  color: #2c392c;
+  font-family: "Afacad", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2;
+  text-align: center;
+  margin: 0;
+  padding: 40px 30px;
+}
+
+.first_container {
+  background-color: #f5f5f5;
+  padding: 30px 40px 60px 40px;
+  border-radius: 10px 0;
+}
+.about_main_heading {
+  padding: 60px 40px 40px 40px;
+  border-radius: 10px 0;
+}
+.main_heading {
+  padding: 0 0 40px 0;
+}
+.main_heading h2 {
+  color: #2c392c;
+  text-align: center;
+  font-family: "Mories", serif;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+  padding: 10px 0 20px 0;
+}
+.main_hr {
+  width: 8%;
+  margin: 0 auto;
+  height: 1px;
+  border: none;
+  background: #ad8e72;
+}
+.health_viewAll p {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: #99704d;
+  font-size: 20px;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+.health_rightArrow svg {
+  margin-top: 8px;
+}
+.grid {
+  margin: 0px auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 55%;
+}
+
+.subGrid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gridImage {
+  background-color: #dfc7ab;
+  border-radius: 15px 0;
+  padding: 15px 15px 8px 15px;
+}
+.gridImage img {
+  width: 35px;
+  height: 35px;
+}
+
+.gridImageSubHead {
+  margin-top: 10px;
+  font-size: 18px;
+  text-align: center;
+}
+.grid_text p {
+  color: #2c392c;
+  font-family: "Afacad", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: center;
+  margin: 0 auto;
+  padding: 15px 0 20px 0;
+}
+
+/* .gridImageSubHeadLiine{
+    border: 3px solid black;
+} */
+
+.readBtn {
+  border: none;
+  background-color: #ad8e72;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 10px 24px;
+  color: white !important;
+  border-radius: 6px;
+  font-family: "Poppins";
+  margin-top: 10px;
+  cursor: pointer;
+}
+.promotion_container {
+  margin-top: 20px;
+}
+.flex {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.flexBox {
+  background-color: white;
+  width: 100%;
+  border-radius: 14px 0;
+  box-shadow: 0 2px 14px rgb(144 144 144 / 20%);
+}
+
+.flexImage {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.flexHead {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Afacad", sans-serif;
+  font-style: normal;
+
+  line-height: 1.4;
+  color: #2c392c;
+}
+
+.flexBoxContent {
+  padding: 15px 30px;
+}
+
+.flexContent {
+  font-family: "Afacad", sans-serif;
+  font-style: normal;
+  padding: 10px 0 20px 0;
+  font-size: 16px;
+  font-weight: 400;
+  color: #8e8e8e;
+}
+
+.aboutHead {
+  color: #2c392c;
+  text-align: center;
+  font-family: "Mories", serif;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+  padding: 10px 0 20px 0;
+}
+
+.flexImageLogo {
+  margin: 40px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.main_box {
+  border: 2px solid #ac8d71;
+  border-radius: 10px 0;
+  margin: 60px 0 0 0;
+}
+.box_name {
+  background: #dfc7ab;
+  color: #2c392c;
+  font-family: "Afacad", sans-serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+  margin: -30px auto 0 auto;
+  width: 30%;
+  padding: 12px 20px;
+  border-radius: 6px;
+}
+.btn {
+  width: 120px;
+  height: 40px;
+  cursor: pointer;
+  background: #ad8e72;
+  border: 1px solid #ad8e72;
+  outline: none;
+  transition: 0.6s ease-in-out;
+  border-radius: 7px;
+  position: relative;
+}
+
+.btn svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  fill: none;
+  stroke: #fff;
+  stroke-dasharray: 150 480;
+  stroke-dashoffset: 150;
+  transition: 0.6s ease-in-out;
+}
+
+.btn:hover {
+  transition: 0.6s ease-in-out;
+  background: #dfc7ab;
+}
+
+.btn:hover svg {
+  stroke-dashoffset: -480;
+}
+
+.btn span {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  transition: 0.5s ease-in-out;
+}
+.btn:hover span {
+  color: #9e6735;
+  font-weight: 600;
+}
+
+.hr {
+  width: 20%;
+  margin: 0;
+  border: 1px solid #dfc7ab;
+}
+.btn a {
+  text-decoration: none !important;
+}
+.hr {
+  height: 50px;
+  width: 1px;
+  margin: 15px 0;
+  border: 1px solid #ad8e72;
+}
+.award_container {
+  margin-top: 30px;
+}
+.award_main_box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+.award_image {
+  box-shadow: 0 2px 14px rgb(144 144 144 / 20%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 20px 0;
+  border-radius: 6px;
+}
+.connected_button_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.connected_button button {
+  background: linear-gradient(101deg, #ac8d71 0%, #f9cd9c 50.5%, #d7bea0 100%);
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  font-family: "Mories", serif;
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+  padding: 10px 40px;
+}
+.connected_container {
+  background-color: #f3f3f3;
+  margin-top: 60px;
+  padding-bottom: 40px;
+}
+.connected_text {
+  color: #000000;
+  font-family: "Afacad", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2;
+  text-align: center;
+  margin: 0;
+  padding: 40px 40px 20px 40px;
+}

@@ -296,20 +296,6 @@ const HighLight = () => {
                             layout="responsive"
                           />
                         </div>
-                        {/* <svg
-                        width="30"
-                        height="8"
-                        viewBox="0 0 40 8"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                        className={styles.svgIcon}
-                      >
-                        <path
-                          d="M39.3536 4.35355C39.5488 4.15829 39.5488 3.84171 39.3536 3.64644L36.1716 0.464463C35.9763 0.269201 35.6597 0.269201 35.4645 0.464463C35.2692 0.659725 35.2692 0.976308 35.4645 1.17157L38.2929 4L35.4645 6.82842C35.2692 7.02369 35.2692 7.34027 35.4645 7.53553C35.6597 7.73079 35.9763 7.73079 36.1716 7.53553L39.3536 4.35355ZM4.37114e-08 4.5L39 4.5L39 3.5L-4.37114e-08 3.5L4.37114e-08 4.5Z"
-                          fill="#AD8E72"
-                          className={styles.svgPath}
-                        />
-                      </svg> */}
                       </Link>
                     </div>
                   )}
@@ -319,80 +305,80 @@ const HighLight = () => {
                   {category.data.map((item, index) => {
                     return (
                       <div key={index} className={styles.box}>
-                        <Link
+                        {/* <Link
                           href={item.link}
                           target="_blank"
                           className={styles.linkContainer}
                           aria-label={`Read more about ${item.link}`}
-                        >
-                          <div className={styles.highlight_image}>
-                            <Image
-                              src={item.imageUrl}
-                              alt={item.name}
-                              width={414}
-                              height={408}
-                              layout="responsive"
-                            />
-                          </div>
+                        > */}
+                        <div className={styles.highlight_image}>
+                          <Image
+                            src={item.imageUrl}
+                            alt={item.name}
+                            width={414}
+                            height={408}
+                            layout="responsive"
+                          />
+                        </div>
 
-                          <div className={styles.highlight_text_bg}>
-                            <p
-                              className={
-                                //   `${
-                                //   category.name === "Disease & Treatment" &&
-                                styles.different_font
-                                // } ${
+                        <div className={styles.highlight_text_bg}>
+                          <p
+                            className={
+                              //   `${
+                              //   category.name === "Disease & Treatment" &&
+                              styles.different_font
+                              // } ${
 
-                                // styles.highlight_tex
-                                // }`
-                              }
-                            >
-                              {item.title}
-                            </p>
-                          </div>
-                          <div className={styles.hovered_container}>
-                            <p className={styles.hovered_title}>{item.title}</p>
-                            <p className={styles.hovered_desc}>
-                              {item.description}
-                            </p>
-                            <div className={styles.btn_container}>
-                              <button className={styles.btn}>
-                                <Link
-                                  href="https://www.medparkhospital.com/en-US/about-us"
-                                  aria-label="About Medpark Hospital"
-                                  target="_blank"
+                              // styles.highlight_tex
+                              // }`
+                            }
+                          >
+                            {item.title}
+                          </p>
+                        </div>
+                        <div className={styles.hovered_container}>
+                          <p className={styles.hovered_title}>{item.title}</p>
+                          <p className={styles.hovered_desc}>
+                            {item.description}
+                          </p>
+                          <div className={styles.btn_container}>
+                            <button className={styles.btn}>
+                              <Link
+                                href={item.link}
+                                target="_blank"
+                                aria-label={`Read more about ${item.link}`}
+                              >
+                                <svg
+                                  width="120px"
+                                  height="40px"
+                                  viewBox="0 0 180 60"
+                                  class="border"
                                 >
-                                  <svg
-                                    width="120px"
-                                    height="40px"
-                                    viewBox="0 0 180 60"
-                                    class="border"
-                                  >
-                                    <rect
-                                      x="0"
-                                      y="0"
-                                      width="180"
-                                      height="60"
-                                      rx="7"
-                                      ry="7"
-                                      class="bg-line"
-                                    />
-                                    <rect
-                                      x="1"
-                                      y="1"
-                                      width="178"
-                                      height="58"
-                                      rx="7"
-                                      ry="7"
-                                      class="hl-line"
-                                    />
-                                  </svg>
-                                  <span>Read More</span>
-                                </Link>
-                              </button>
-                            </div>
+                                  <rect
+                                    x="0"
+                                    y="0"
+                                    width="180"
+                                    height="60"
+                                    rx="7"
+                                    ry="7"
+                                    class="bg-line"
+                                  />
+                                  <rect
+                                    x="1"
+                                    y="1"
+                                    width="178"
+                                    height="58"
+                                    rx="7"
+                                    ry="7"
+                                    class="hl-line"
+                                  />
+                                </svg>
+                                <span>Read More</span>
+                              </Link>
+                            </button>
                           </div>
-                        </Link>
+                        </div>
+                        {/* </Link> */}
                       </div>
                     );
                   })}

@@ -20,6 +20,8 @@ const Footer = () => {
         return "contact@goldenprivilege.com";
       case "/medical":
         return "medpark@goldenprivilege.com";
+      case "/bankok-hospital":
+        return "bkkhospital@goldenprivilege.com";
       case "/hotels-tours":
         return "hotels&tours@goldenprivilege.com";
       case "/about":
@@ -89,7 +91,7 @@ const Footer = () => {
           </div>
           <div
             className={
-              pathname === "/medical"
+              pathname === "/medical" || pathname === "/bankok-hospital"
                 ? styles.medParkFooter
                 : styles.footerLinks
             }
@@ -186,9 +188,15 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            {pathname === "/medical" ? (
+            {pathname === "/medical" || pathname === "/bankok-hospital" ? (
               <>
-                <div className={styles.medPark_container}>
+                <div
+                  className={`${
+                    pathname === "/bankok-hospital"
+                      ? styles.bangkokFooter_container
+                      : styles.medPark_container
+                  }`}
+                >
                   <div className={styles.medParkLogo_container}>
                     <Image
                       src="/medical/medPark_logo.png"
@@ -202,12 +210,24 @@ const Footer = () => {
                     />
                   </div>
                   <div className={styles.medpark_textIcon_container}>
-                    <IoLocationSharp className={styles.medPark_location_icon} />
-                    <p>3333 Rama IV RD, Khlong Toei, Bangkok 10110</p>
+                    <div className={styles.medPark_location_icon}>
+                      <IoLocationSharp />
+                    </div>
+                    <p>
+                      {pathname === "/medical"
+                        ? "3333 Rama IV RD, Khlong Toei, Bangkok 10110"
+                        : "2 Soi Soonvijai 7,  New Petchburi Rd., Huaykwang, Bangkok 10310 Thailand"}
+                    </p>
                   </div>
                   <div className={styles.medpark_textIcon_container}>
-                    <TfiWorld className={styles.medPark_location_icon} />
-                    <p>www.medparkhospital.com</p>
+                    <div className={styles.medPark_location_icon}>
+                      <TfiWorld />
+                    </div>
+                    <p>
+                      {pathname === "/medical"
+                        ? "www.medparkhospital.com"
+                        : "www.bangkokhospital.com"}
+                    </p>
                   </div>
                 </div>
               </>

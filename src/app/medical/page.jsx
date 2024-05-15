@@ -11,7 +11,7 @@ const Medical = () => {
     <>
       <div className="mainPage_class">
         <FirstSection />
-        <SecondSection />
+        {/* <SecondSection /> */}
         <CraftedByDr />
         <HighLight />
       </div>

@@ -49,6 +49,9 @@
 .news_section {
   width: 100%;
 }
+.health_section {
+  padding-top: 10px;
+}
 /*Old design Css start*/
 /* .main_newsSection {
   display: flex !important;
@@ -185,6 +188,18 @@
   margin-top: -20px;
   border-radius: 7px;
 }
+.health_heading {
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  z-index: 1;
+  width: 80%;
+  margin: 0 auto;
+}
 .time_text {
   display: flex;
   align-items: center;
@@ -199,12 +214,26 @@
   font-style: normal;
   font-weight: 600;
   line-height: 1.2;
-  padding: 0 0 0 15px;
+  padding: 0 15px;
   transition: 0.4s ease;
   margin: 8px 0;
   color: #2c392c;
 }
 .event_text:hover {
+  color: #824d1e;
+}
+.bangkok_text {
+  font-family: "Afacad", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.2;
+  padding: 0 15px;
+  transition: 0.4s ease;
+  margin: 8px 0;
+  color: #2c392c;
+}
+.bangkok_text:hover {
   color: #824d1e;
 }
 .time {
@@ -222,6 +251,9 @@
   width: 80%;
   margin: 0 auto;
 }
+.health_textAndButton {
+  margin: 0 15px;
+}
 .news_text {
   color: #2c392c;
   font-family: "Afacad", sans-serif;
@@ -231,6 +263,21 @@
   line-height: 1.2;
   width: 100%;
   margin: 25px auto 10px auto;
+  display: -webkit-box;
+  width: 100%;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.health_text {
+  color: #8e8e8e;
+  font-family: "Afacad", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.6;
+  margin: 20px auto 10px auto;
   display: -webkit-box;
   width: 100%;
   -webkit-line-clamp: 2;
@@ -263,6 +310,18 @@
   position: relative;
   margin-bottom: 25px;
 }
+.health_button_text {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: #99704d;
+  font-size: 16px;
+  gap: 5px;
+  margin-bottom: 5px;
+}
+.health_rightArrow svg {
+  margin-top: 8px;
+}
 .btn:hover {
   transition: 0.6s ease-in-out;
   background: #dfc7ab;
@@ -290,6 +349,14 @@
   border-radius: 16px 0;
   height: 100%;
 }
+.health_inner_newsSection {
+  border: 1px solid #ac8d71;
+  padding: 10px 10px 0 10px;
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 16px 0;
+  height: 100%;
+}
 .news_image img {
   border-radius: 14px 0 0 0;
 }
@@ -306,6 +373,37 @@
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
   border: 0;
+}
+.health_content {
+  position: relative;
+}
+.health_heading p {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  z-index: 1;
+  width: 80%;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 20px;
+}
+.health_shadow {
+  background: linear-gradient(to bottom, #00000000, #000000cc);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 70%;
+  transition: all 0.6s ease;
+  border-radius: 0 0 12px 0;
+}
+.health_viewAll p {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: #99704d;
+  font-size: 20px;
+  gap: 5px;
 }
 @media only screen and (max-width: 1330px) {
   .sub_heading {

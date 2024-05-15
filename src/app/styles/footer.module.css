@@ -188,6 +188,10 @@
   border-radius: 100%;
   padding: 7px 7px;
 }
+.medPark_location_icon svg {
+  width: 18px;
+  height: 18px;
+}
 .medParkLogo_container {
   margin-bottom: 20px;
   text-align: right;
@@ -277,6 +281,9 @@
   width: 28px;
   height: 28px;
 }
+.bangkokFooter_container {
+  width: 40%;
+}
 @media only screen and (max-width: 1200px) {
   .footerTopMainDiv {
     max-width: 80%;
@@ -301,7 +308,10 @@
   .medParkFooter {
     flex-direction: column;
   }
-  .medPark_container {
+  .bangkokFooter_container {
+    margin-top: 40px;
+  }
+  .bangkok_container {
     margin-top: 40px;
   }
 }
@@ -318,8 +328,8 @@
 }
 
 @media only screen and (max-width: 425px) {
-  .medPark_location_icon {
-    width: 20px;
-    height: 20px;
+  .medPark_location_icon svg {
+    width: 14px;
+    height: 14px;
   }
 }

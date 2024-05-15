@@ -83,7 +83,37 @@ const data = [
   },
 ];
 
-const NewsSlider = () => {
+const bangkokData = [
+  {
+    title: "Enlarged prostate",
+    description: "Every mission is possible with all treatments options",
+    imgUrl: "/bankok_hospital/services1.png",
+    link: "https://www.bangkokhospital.com/en/campaign/benign-prostatic-hyperplasia",
+  },
+  {
+    title: "Choose your annual health check-up.",
+    description:
+      "Get FREE Gevity nutritional supplement pack. (January 4th - June 30th 2024)",
+    imgUrl: "/bankok_hospital/services2.png",
+    link: "https://www.bangkokhospital.com/en/package/health-check-up-packages",
+  },
+  {
+    title: "The da Vinci Xi Robot-Assisted Surgery",
+    description:
+      "An Intelligent Surgical Solution for Advanced Minimally Invasive Surgery to Enhance...",
+    imgUrl: "/bankok_hospital/services3.png",
+    link: "https://www.bangkokhospital.com/en/campaign/robotic-surgery  ",
+  },
+  {
+    title: "Enlarged prostate",
+    description: "Every mission is possible with all treatments options",
+    imgUrl: "/bankok_hospital/services1.png",
+    link: "https://www.bangkokhospital.com/en/campaign/benign-prostatic-hyperplasia",
+  },
+];
+
+const NewsSlider = ({ props }) => {
+  const isBangkok = props === "bangkok";
   const [showPrevArrow, setShowPrevArrow] = useState(false);
 
   var settings = {
@@ -115,111 +145,118 @@ const NewsSlider = () => {
     <>
       <div className={styles.news_section} id="news_slider">
         <Slider {...settings}>
-          {data.length > 0 &&
-            data.map((item, index) => {
-              return (
-                //Old Design
-                // <div key={index} className={styles.main_newsSection}>
-                //   <div className={styles.news_continent}>
-                //     <div className={styles.event_time}>
-                //       <div>
-                //         <p className={styles.event_text}>Event</p>
-                //       </div>
-                //       <div className={styles.time_text}>
-                //         <MdOutlineAccessTime />
-                //         <p className={styles.time}>1 Hour Ago</p>
-                //       </div>
-                //     </div>
-                //     <div className={styles.news_image}>
-                //       <img
-                //         src={item.imgUrl}
-                //         alt="promotion image"
-                //         style={{ width: "100%" }}
-                //       />
-                //     </div>
-                //   </div>
-                //   <div>
-                //     <p className={styles.news_text}>
-                //       Exclusive airport lounge for members now open
-                //     </p>
-                //     <hr className={styles.news_hr} />
-                //     <div className={styles.button_container}>
-                //       <button className={styles.button}>Read More</button>
-                //     </div>
-                //   </div>
-                // </div>
-                <div key={index} className={styles.main_newsSection}>
-                  <div className={styles.inner_newsSection}>
-                    <div className={styles.news_content}>
-                      <div className={styles.news_image}>
-                        <Image
-                          src={item.imgUrl}
-                          alt="promotion image"
-                          width={420}
-                          height={324}
-                          // style={{
-                          //   width: "100%",
-                          //   height: "auto",
-                          // }}
-                          layout="responsive"
-                        />
-                      </div>
-                      <div className={styles.event_time}>
+          {(isBangkok ? bangkokData : data).map((item, index) => {
+            return (
+              //Old Design
+              // <div key={index} className={styles.main_newsSection}>
+              //   <div className={styles.news_continent}>
+              //     <div className={styles.event_time}>
+              //       <div>
+              //         <p className={styles.event_text}>Event</p>
+              //       </div>
+              //       <div className={styles.time_text}>
+              //         <MdOutlineAccessTime />
+              //         <p className={styles.time}>1 Hour Ago</p>
+              //       </div>
+              //     </div>
+              //     <div className={styles.news_image}>
+              //       <img
+              //         src={item.imgUrl}
+              //         alt="promotion image"
+              //         style={{ width: "100%" }}
+              //       />
+              //     </div>
+              //   </div>
+              //   <div>
+              //     <p className={styles.news_text}>
+              //       Exclusive airport lounge for members now open
+              //     </p>
+              //     <hr className={styles.news_hr} />
+              //     <div className={styles.button_container}>
+              //       <button className={styles.button}>Read More</button>
+              //     </div>
+              //   </div>
+              // </div>
+              <div key={index} className={styles.main_newsSection}>
+                <div className={styles.inner_newsSection}>
+                  <div className={styles.news_content}>
+                    <div className={styles.news_image}>
+                      <Image
+                        src={item.imgUrl}
+                        alt="promotion image"
+                        width={420}
+                        height={324}
+                        // style={{
+                        //   width: "100%",
+                        //   height: "auto",
+                        // }}
+                        layout="responsive"
+                      />
+                    </div>
+                    <div className={styles.event_time}>
+                      {!isBangkok ? (
                         <div>
                           <p className={styles.event_text}>{item.event}</p>
                         </div>
+                      ) : (
+                        <div>
+                          <p className={styles.bangkok_text}>{item.title}</p>
+                        </div>
+                      )}
+                      {!isBangkok && (
                         <div className={styles.time_text}>
                           <MdOutlineAccessTime />
                           <p className={styles.time}>{item.time}</p>
                         </div>
-                      </div>
+                      )}
                     </div>
-                    <div className={styles.textAndButton}>
-                      <p className={styles.news_text}>{item.description}</p>
-                      <div className={styles.button_container}>
-                        <Link
-                          href={item.link}
-                          target="_blank"
-                          aria-label={`Read more about ${item.description}`}
-                        >
-                          <button className={styles.btn}>
-                            <svg
-                              width="120px"
-                              height="40px"
-                              viewBox="0 0 180 60"
-                              class="border"
-                            >
-                              <rect
-                                x="0"
-                                y="0"
-                                width="180"
-                                height="60"
-                                rx="7"
-                                ry="7"
-                                class="bg-line"
-                              />
-                              <rect
-                                x="1"
-                                y="1"
-                                width="178"
-                                height="58"
-                                rx="7"
-                                ry="7"
-                                class="hl-line"
-                              />
-                            </svg>
-                            <span>Read More</span>
-                            <span
-                              className={styles.visually_hidden}
-                            >{`Read more about ${item.description}`}</span>
-                          </button>
-                        </Link>
-                      </div>
+                  </div>
+                  <div className={styles.textAndButton}>
+                    <p className={styles.news_text}>{item.description}</p>
+                    <div className={styles.button_container}>
+                      <Link
+                        href={item.link}
+                        target="_blank"
+                        aria-label={`Read more about ${item.description}`}
+                      >
+                        <button className={styles.btn}>
+                          <svg
+                            width="120px"
+                            height="40px"
+                            viewBox="0 0 180 60"
+                            class="border"
+                          >
+                            <rect
+                              x="0"
+                              y="0"
+                              width="180"
+                              height="60"
+                              rx="7"
+                              ry="7"
+                              class="bg-line"
+                            />
+                            <rect
+                              x="1"
+                              y="1"
+                              width="178"
+                              height="58"
+                              rx="7"
+                              ry="7"
+                              class="hl-line"
+                            />
+                          </svg>
+                          <span>Read More</span>
+                          <span
+                            className={styles.visually_hidden}
+                          >{`Read more about ${item.description}`}</span>
+                        </button>
+                      </Link>
                     </div>
                   </div>
                 </div>
-              );
-            })}
+              </div>
+            );
+          })}
         </Slider>
       </div>
     </>
