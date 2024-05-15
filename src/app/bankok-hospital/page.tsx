@@ -5,8 +5,8 @@ import HeroSection from "../components/bankok-hospital/heroSection";
 import SecondSection from "../components/bankok-hospital/secondSection";
 import Services from "../components/bankok-hospital/services";
 import PacakagePromotion from "../components/bankok-hospital/pacakagePromotion";
-import HealthInfo from "../components/bankok-hospital/healthINfo";
 import AboutUs from "../components/bankok-hospital/aboutUs";
+import HealthInfo from "../components/bankok-hospital/healthInfo";
 
 const bankokHospital = () => {
   // const schema = {
@@ -24,9 +24,9 @@ const bankokHospital = () => {
   // };
   return (
     <>
-      <Head>
-        {/* <script type="application/ld+json">{JSON.stringify(schema)}</script> */}
-      </Head>
+      {/* <Head> */}
+      {/* <script type="application/ld+json">{JSON.stringify(schema)}</script> */}
+      {/* </Head> */}
       <div className="mainPage_class">
         <HeroSection />
         <SecondSection />
