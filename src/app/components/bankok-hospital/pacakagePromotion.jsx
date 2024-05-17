@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./../../styles/bankok-hospital/lastSection.module.css";
 import Image from "next/image";
 import Link from "next/link";
 import { HiOutlineArrowRight } from "react-icons/hi";
 
 const PacakagePromotion = () => {
+  const [hoveredSection, setHoveredSection] = useState(null);
+  const handleHover = (sectionId) => {
+    setHoveredSection(sectionId);
+  };
   return (
     <div>
       <div className={styles.container}>
@@ -26,12 +30,25 @@ const PacakagePromotion = () => {
             </div>
             <div className={styles.grid}>
               <div className={styles.subGrid}>
-                <div className={styles.gridImage}>
+                <div
+                  className={styles.gridImage}
+                  onMouseEnter={() => handleHover(1)}
+                  onMouseLeave={() => handleHover(null)}
+                >
                   <Image
                     width={58}
                     height={52}
                     alt="Vaccine"
-                    src="/bankok_hospital/Frame (12).svg"
+                    style={{
+                      transform:
+                        hoveredSection === 1 ? "scale(1.2)" : "scale(1)",
+                      transition: "transform 0.3s ease",
+                    }}
+                    src={
+                      hoveredSection === 1
+                        ? "bankok_hospital/hoverd/Frame-1.svg"
+                        : "bankok_hospital/Frame (12).svg"
+                    }
                   />
                 </div>
                 <div className={styles.grid_text}>
@@ -44,12 +61,25 @@ const PacakagePromotion = () => {
                 </div>
               </div>
               <div className={styles.subGrid}>
-                <div className={styles.gridImage}>
+                <div
+                  className={styles.gridImage}
+                  onMouseEnter={() => handleHover(2)}
+                  onMouseLeave={() => handleHover(null)}
+                >
                   <Image
                     width={58}
                     height={52}
                     alt="Surgery"
-                    src="/bankok_hospital/Group.svg"
+                    style={{
+                      transform:
+                        hoveredSection === 2 ? "scale(1.2)" : "scale(1)",
+                      transition: "transform 0.3s ease",
+                    }}
+                    src={
+                      hoveredSection === 2
+                        ? "bankok_hospital/hoverd/Frame-2.svg"
+                        : "bankok_hospital/Group.svg"
+                    }
                   />
                 </div>
                 <div className={styles.grid_text}>
@@ -62,12 +92,25 @@ const PacakagePromotion = () => {
                 </div>
               </div>
               <div className={styles.subGrid}>
-                <div className={styles.gridImage}>
+                <div
+                  className={styles.gridImage}
+                  onMouseEnter={() => handleHover(3)}
+                  onMouseLeave={() => handleHover(null)}
+                >
                   <Image
                     width={58}
                     height={52}
                     alt="Check-up"
-                    src="/bankok_hospital/Frame (13).svg"
+                    style={{
+                      transform:
+                        hoveredSection === 3 ? "scale(1.2)" : "scale(1)",
+                      transition: "transform 0.3s ease",
+                    }}
+                    src={
+                      hoveredSection === 3
+                        ? "bankok_hospital/hoverd/Frame.svg"
+                        : "bankok_hospital/Frame (13).svg"
+                    }
                   />
                 </div>
                 <div className={styles.grid_text}>
@@ -80,12 +123,25 @@ const PacakagePromotion = () => {
                 </div>
               </div>
               <div className={styles.subGrid}>
-                <div className={styles.gridImage}>
+                <div
+                  className={styles.gridImage}
+                  onMouseEnter={() => handleHover(4)}
+                  onMouseLeave={() => handleHover(null)}
+                >
                   <Image
                     width={58}
                     height={52}
                     alt="Dental"
-                    src="/bankok_hospital/Frame (14).svg"
+                    style={{
+                      transform:
+                        hoveredSection === 4 ? "scale(1.2)" : "scale(1)",
+                      transition: "transform 0.3s ease",
+                    }}
+                    src={
+                      hoveredSection === 4
+                        ? "bankok_hospital/hoverd/Frame-3.svg"
+                        : "bankok_hospital/Frame (14).svg"
+                    }
                   />
                 </div>
                 <div className={styles.grid_text}>
@@ -100,12 +156,17 @@ const PacakagePromotion = () => {
             </div>
             <div className={styles.promotion_container}>
               <div className={styles.health_viewAll}>
-                <p>
-                  View All{" "}
-                  <span className={styles.health_rightArrow}>
-                    <HiOutlineArrowRight />
-                  </span>
-                </p>
+                <Link
+                  href="https://www.bangkokhospital.com/en/package"
+                  target="_blank"
+                >
+                  <p>
+                    View All{" "}
+                    <span className={styles.health_rightArrow}>
+                      <HiOutlineArrowRight />
+                    </span>
+                  </p>
+                </Link>
               </div>
               <div className={styles.flex}>
                 <div className={styles.flexBox}>

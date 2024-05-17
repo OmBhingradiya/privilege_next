@@ -20,7 +20,7 @@ const Footer = () => {
         return "contact@goldenprivilege.com";
       case "/medical":
         return "medpark@goldenprivilege.com";
-      case "/bankok-hospital":
+      case "/bangkok-hospital":
         return "bkkhospital@goldenprivilege.com";
       case "/hotels-tours":
         return "hotels&tours@goldenprivilege.com";
@@ -91,7 +91,7 @@ const Footer = () => {
           </div>
           <div
             className={
-              pathname === "/medical" || pathname === "/bankok-hospital"
+              pathname === "/medical" || pathname === "/bangkok-hospital"
                 ? styles.medParkFooter
                 : styles.footerLinks
             }
@@ -145,13 +145,13 @@ const Footer = () => {
                   className={`${styles.footerLogoDiv} ${styles.footerLogo1}`}
                 >
                   <Image
-                    src="/footer/FOOTER-LOGO-1.png"
+                    src="/footer/FOOTER-LOGO-1.svg"
                     className={styles.footerLogo}
                     alt="footerLogo1"
                     width={80}
                     height={80}
                     style={{
-                      width: "100%",
+                      width: "80%",
                       height: "auto",
                     }}
                   />
@@ -160,13 +160,13 @@ const Footer = () => {
                   className={`${styles.footerLogoDiv} ${styles.footerLogo2}`}
                 >
                   <Image
-                    src="/footer/FOOTER-LOGO-2.png"
+                    src="/footer/FOOTER-LOGO-2.svg"
                     className={styles.footerLogo}
                     alt="footerLogo2"
                     width={80}
                     height={80}
                     style={{
-                      width: "100%",
+                      width: "80%",
                       height: "auto",
                     }}
                   />
@@ -175,31 +175,35 @@ const Footer = () => {
                   className={`${styles.footerLogoDiv} ${styles.footerLogo3}`}
                 >
                   <Image
-                    src="/footer/FOOTER-LOGO-3.png"
+                    src="/footer/FOOTER-LOGO-3.svg"
                     className={styles.footerLogo}
                     alt="footerLogo3"
                     width={80}
                     height={80}
                     style={{
-                      width: "100%",
+                      width: "80%",
                       height: "auto",
                     }}
                   />
                 </div>
               </div>
             </div>
-            {pathname === "/medical" || pathname === "/bankok-hospital" ? (
+            {pathname === "/medical" || pathname === "/bangkok-hospital" ? (
               <>
                 <div
                   className={`${
-                    pathname === "/bankok-hospital"
+                    pathname === "/bangkok-hospital"
                       ? styles.bangkokFooter_container
                       : styles.medPark_container
                   }`}
                 >
                   <div className={styles.medParkLogo_container}>
                     <Image
-                      src="/medical/medPark_logo.png"
+                      src={
+                        pathname === "/medical"
+                          ? "/medical/medPark_logo.png"
+                          : "/bankok_hospital/bangkok hospital logo.svg"
+                      }
                       alt="medpark logo"
                       width={420}
                       height={124}
@@ -393,7 +397,9 @@ const Footer = () => {
           <div className={styles.copyrightLinksDiv}>
             <div>
               <p className={styles.copyrightText}>
-                Copyright © 2024 The Crown Privileges
+                {pathname === "/bangkok-hospital"
+                  ? "Copyright © 2024 The Bangkok Hospital"
+                  : "Copyright © 2024 The Crown Privileges"}
               </p>
             </div>
             <div>

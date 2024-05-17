@@ -204,14 +204,14 @@ const Header = () => {
                     <div className={headerStyles.navLinkDiv}>
                       {/* <a className={headerStyles.link_style} href="/medical"> */}
                       <Link
-                        href="/bankok-hospital"
+                        href="/bangkok-hospital"
                         activeClassName={`active ${headerStyles.headerLinks}`}
                       >
                         Bangkok Hospital
                         {/* </a> */}
                       </Link>
                     </div>
-                    {pathName == "/bankok-hospital" ? (
+                    {pathName == "/bangkok-hospital" ? (
                       <div className={headerStyles.active_bottomLine}></div>
                     ) : null}
                   </div>
@@ -421,7 +421,7 @@ const Header = () => {
                     </div>
                     <div className={headerStyles.linksDiv}>
                       <Link
-                        href="/bankok-hospital"
+                        href="/bangkok-hospital"
                         className={headerStyles.link_style}
                         onClick={handleLinkClick}
                       >

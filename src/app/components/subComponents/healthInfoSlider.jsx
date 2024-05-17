@@ -71,12 +71,17 @@ const HealthInfoSlider = () => {
     <>
       <div className={styles.health_section} id="news_slider">
         <div className={styles.health_viewAll}>
-          <p>
-            View All{" "}
-            <span className={styles.health_rightArrow}>
-              <HiOutlineArrowRight />
-            </span>
-          </p>
+          <Link
+            href="https://www.bangkokhospital.com/en/health-info"
+            target="_blank"
+          >
+            <p>
+              View All{" "}
+              <span className={styles.health_rightArrow}>
+                <HiOutlineArrowRight />
+              </span>
+            </p>
+          </Link>
         </div>
         <Slider {...settings}>
           {data.length > 0 &&

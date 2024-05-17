@@ -73,7 +73,12 @@
 .gridImage {
   background-color: #dfc7ab;
   border-radius: 15px 0;
-  padding: 15px 15px 8px 15px;
+  padding: 15px 15px 10px 15px;
+  transition: background-color 0.4s ease;
+}
+
+.gridImage:hover {
+  background-color: #404040;
 }
 .gridImage img {
   width: 35px;
@@ -177,6 +182,68 @@
   align-items: center;
   justify-content: space-evenly;
 }
+
+.imageLogo {
+  position: relative;
+  box-shadow: 0 2px 14px rgb(144 144 144 / 20%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 26px;
+  border-radius: 6px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: linear-gradient(135deg, #ffffff, #f0f0f0);
+}
+
+.imageLogo::before,
+.imageLogo::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box;
+}
+
+.imageLogo::before {
+  border-top-color: #dfc7ab;
+  border-bottom-color: #dfc7ab;
+  transition-delay: 0.1s;
+}
+
+.imageLogo::after {
+  border-left-color: #dfc7ab;
+  border-right-color: #dfc7ab;
+  transition-delay: 0.2s;
+}
+
+.imageLogo img {
+  max-width: 100%;
+  transition: transform 0.3s ease, filter 0.3s ease;
+  z-index: 2;
+}
+
+.imageLogo:hover {
+  transform: perspective(600px) rotateY(15deg) rotateX(10deg);
+  box-shadow: 0 8px 20px rgb(144 144 144 / 40%);
+  background: linear-gradient(101deg, #ac8d71 0%, #fce7cf 50.5%, #d7bea0 100%);
+}
+
+.imageLogo:hover::before,
+.imageLogo:hover::after {
+  border-color: #ffffff;
+}
+
+.imageLogo:hover img {
+  transform: scale(1.1) rotate(5deg);
+  filter: brightness(1.2);
+}
+
 .main_box {
   border: 2px solid #ac8d71;
   border-radius: 10px 0;
@@ -256,12 +323,15 @@
 .award_container {
   margin-top: 30px;
 }
+
 .award_main_box {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 40px;
 }
+
 .award_image {
+  position: relative;
   box-shadow: 0 2px 14px rgb(144 144 144 / 20%);
   display: flex;
   align-items: center;
@@ -269,7 +339,46 @@
   width: 100%;
   padding: 20px 0;
   border-radius: 6px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+.award_image::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  z-index: 1;
+  transition: opacity 0.3s ease;
+  opacity: 0;
+}
+
+.award_image img {
+  max-width: 100%;
+  transition: transform 0.3s ease;
+  z-index: 2;
+}
+
+.award_image:hover {
+  transform: rotateY(10deg) rotateX(10deg) scale(1.05);
+  box-shadow: 0 8px 20px rgb(144 144 144 / 40%);
+}
+
+.award_image:hover::before {
+  opacity: 1;
+}
+
+.award_image:hover img {
+  transform: scale(1.1) rotate(-5deg);
+}
+
 .connected_button_container {
   display: flex;
   justify-content: center;
@@ -278,6 +387,7 @@
 }
 .connected_button button {
   background: linear-gradient(101deg, #ac8d71 0%, #f9cd9c 50.5%, #d7bea0 100%);
+  background-size: 200% 200%;
   cursor: pointer;
   border: none;
   border-radius: 6px;
@@ -286,7 +396,15 @@
   font-weight: 400;
   color: #fff;
   padding: 10px 40px;
+  transition: background-position 0.4s ease-in-out;
+  background-position: 0% 50%;
 }
+
+.connected_button button:hover {
+  background-size: 200% 200%;
+  background-position: 100% 50%;
+}
+
 .connected_container {
   background-color: #f3f3f3;
   margin-top: 60px;

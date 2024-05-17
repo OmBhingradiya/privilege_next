@@ -1,9 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./../../styles/bankok-hospital/lastSection.module.css";
 import Image from "next/image";
 import Link from "next/link";
 
 const AboutUs = () => {
+  const [hoveredSection, setHoveredSection] = useState(null);
+  const handleHover = (sectionId) => {
+    setHoveredSection(sectionId);
+  };
   return (
     <div>
       <div className={styles.container}>
@@ -17,12 +21,25 @@ const AboutUs = () => {
             </div>
             <div className={styles.grid}>
               <div className={styles.subGrid}>
-                <div className={styles.gridImage}>
+                <div
+                  className={styles.gridImage}
+                  onMouseEnter={() => handleHover(1)}
+                  onMouseLeave={() => handleHover(null)}
+                >
                   <Image
                     width={58}
                     height={52}
                     alt="Our Story"
-                    src="/bankok_hospital/Group (1).svg"
+                    style={{
+                      transform:
+                        hoveredSection === 1 ? "scale(1.2)" : "scale(1)",
+                      transition: "transform 0.3s ease",
+                    }}
+                    src={
+                      hoveredSection === 1
+                        ? "bankok_hospital/hoverd/Group-1.svg"
+                        : "bankok_hospital/Group (1).svg"
+                    }
                   />
                 </div>
                 <div className={styles.grid_text}>
@@ -36,18 +53,31 @@ const AboutUs = () => {
               </div>
 
               <div className={styles.subGrid}>
-                <div className={styles.gridImage}>
+                <div
+                  className={styles.gridImage}
+                  onMouseEnter={() => handleHover(2)}
+                  onMouseLeave={() => handleHover(null)}
+                >
                   <Image
                     width={58}
                     height={52}
                     alt="News & Events"
-                    src="/bankok_hospital/Group (2).svg"
+                    style={{
+                      transform:
+                        hoveredSection === 2 ? "scale(1.2)" : "scale(1)",
+                      transition: "transform 0.3s ease",
+                    }}
+                    src={
+                      hoveredSection === 2
+                        ? "bankok_hospital/hoverd/Group-2.svg"
+                        : "bankok_hospital/Group (2).svg"
+                    }
                   />
                 </div>
                 <div className={styles.grid_text}>
                   <Link
                     target="_blank"
-                    href="https://www.bangkokhospital.com/en/about-us/our-story"
+                    href="https://www.bangkokhospital.com/en/news-events"
                   >
                     <p>News & Events</p>
                   </Link>
@@ -55,12 +85,25 @@ const AboutUs = () => {
               </div>
 
               <div className={styles.subGrid}>
-                <div className={styles.gridImage}>
+                <div
+                  className={styles.gridImage}
+                  onMouseEnter={() => handleHover(3)}
+                  onMouseLeave={() => handleHover(null)}
+                >
                   <Image
                     width={58}
                     height={52}
                     alt="Room Rates"
-                    src="/bankok_hospital/Group (3).svg"
+                    style={{
+                      transform:
+                        hoveredSection === 3 ? "scale(1.2)" : "scale(1)",
+                      transition: "transform 0.3s ease",
+                    }}
+                    src={
+                      hoveredSection === 3
+                        ? "bankok_hospital/hoverd/Group-3.svg"
+                        : "bankok_hospital/Group (3).svg"
+                    }
                   />
                 </div>
                 <div className={styles.grid_text}>
@@ -74,12 +117,25 @@ const AboutUs = () => {
               </div>
 
               <div className={styles.subGrid}>
-                <div className={styles.gridImage}>
+                <div
+                  className={styles.gridImage}
+                  onMouseEnter={() => handleHover(4)}
+                  onMouseLeave={() => handleHover(null)}
+                >
                   <Image
                     width={58}
                     height={52}
                     alt="Map"
-                    src="/bankok_hospital/Group (3).svg"
+                    style={{
+                      transform:
+                        hoveredSection === 4 ? "scale(1.2)" : "scale(1)",
+                      transition: "transform 0.3s ease",
+                    }}
+                    src={
+                      hoveredSection === 4
+                        ? "bankok_hospital/hoverd/Group-4.svg"
+                        : "bankok_hospital/Group (4).svg"
+                    }
                   />
                 </div>
                 <div className={styles.grid_text}>
