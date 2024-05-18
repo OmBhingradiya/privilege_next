@@ -192,10 +192,14 @@
   width: 18px;
   height: 18px;
 }
+.medPark_container,
+.bangkokFooter_container {
+  width: 40%;
+}
 .medParkLogo_container {
   margin-bottom: 20px;
   text-align: right;
-  width: 80%;
+  /* width: 80%; */
   margin: 0 0 0 auto;
 }
 .medParkLogo_container img {
@@ -284,9 +288,9 @@
   width: 28px;
   height: 28px;
 }
-.bangkokFooter_container {
+/* .bangkokFooter_container {
   width: 40%;
-}
+} */
 @media only screen and (max-width: 1200px) {
   .footerTopMainDiv {
     max-width: 80%;
@@ -311,9 +315,7 @@
   .medParkFooter {
     flex-direction: column;
   }
-  .bangkokFooter_container {
-    margin-top: 40px;
-  }
+
   .bangkokFooter_container,
   .medPark_container {
     margin-top: 40px;
@@ -321,6 +323,7 @@
   .medParkLogo_container {
     width: 70%;
     margin: 0 auto;
+    text-align: center;
   }
   .bangkokFooter_container,
   .medPark_container {
@@ -343,5 +346,11 @@
   .medPark_location_icon svg {
     width: 14px;
     height: 14px;
+  }
+  .medParkLogo_container {
+    width: 80%;
+  }
+  .medParkLogo_container img {
+    width: 100%;
   }
 }

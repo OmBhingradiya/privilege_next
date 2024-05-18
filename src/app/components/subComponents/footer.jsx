@@ -201,14 +201,14 @@ const Footer = () => {
                     <Image
                       src={
                         pathname === "/medical"
-                          ? "/medical/medPark_logo.png"
+                          ? "/medical/medPark_logo.svg"
                           : "/bankok_hospital/bangkok hospital logo.svg"
                       }
-                      alt="medpark logo"
+                      alt="hospital logo"
                       width={420}
                       height={124}
                       style={{
-                        width: "100%",
+                        // width: "100%",
                         height: "auto",
                       }}
                     />

@@ -231,7 +231,7 @@
 .imageLogo:hover {
   transform: perspective(600px) rotateY(15deg) rotateX(10deg);
   box-shadow: 0 8px 20px rgb(144 144 144 / 40%);
-  background: linear-gradient(101deg, #ac8d71 0%, #fce7cf 50.5%, #d7bea0 100%);
+  background: linear-gradient(101deg, #ffd3aa 0%, #ffecd4 50.5%, #b98a50 100%);
 }
 
 .imageLogo:hover::before,
