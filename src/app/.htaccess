@@ -1,8 +1,27 @@
 <IfModule mod_rewrite.c>
   RewriteEngine On
   RewriteBase /
-  RewriteRule ^index\.html$ - [L]
+
+  # Allow access to static files and API routes
+  RewriteRule ^/_next/static/(.*) - [L]
+  RewriteRule ^/static/(.*) - [L]
+  RewriteRule ^/api/(.*) - [L]
+
+  # Handle other requests by rewriting to the Next.js app entry point
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
-  RewriteRule . /index.html [L]
+  RewriteRule ^.*$ /index.html [L]
+
+  # Deny access to hidden files and directories starting with a dot
+  <FilesMatch "^\.">
+    Order allow,deny
+    Deny from all
+  </FilesMatch>
 </IfModule>
+
+# Set permissions for the public directory
+<Directory "/path/to/your/nextjs/app/public">
+  Options Indexes FollowSymLinks
+  AllowOverride All
+  Require all granted
+</Directory>
