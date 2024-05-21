@@ -34,6 +34,7 @@
 .logoDiv {
   max-width: 270px;
   padding-right: 30px;
+  margin-top: -18px;
 }
 .thirdSection {
   width: 5%;
@@ -358,6 +359,8 @@
     margin: 20px auto;
     display: flex;
     filter: brightness(0.75);
+    margin-top: 5px;
+    margin-bottom: 15px;
   }
 
   .topHeaderMainDiv {
@@ -371,7 +374,7 @@
   }
   .openButton {
     position: absolute;
-    top: 15px;
+    top: 20px;
     left: 15px;
     z-index: 1001;
     border: none;
