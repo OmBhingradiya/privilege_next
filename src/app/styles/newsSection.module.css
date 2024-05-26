@@ -35,7 +35,7 @@
 }
 .sub_heading {
   color: #2c392c;
-  font-family: "Afacad", sans-serif;
+  font-family: "Calibri", sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -103,7 +103,7 @@
   transform: scale(1.2);
 }
 .event_text {
-  font-family: "Afacad", sans-serif;
+  font-family: "Calibri", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -115,7 +115,7 @@
   color: #824d1e;
 }
 .time {
-  font-family: "Afacad", sans-serif;
+  font-family: "Calibri", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -128,7 +128,7 @@
 }
 .news_text {
   color: #2c392c;
-  font-family: "Afacad", sans-serif;
+  font-family: "Calibri", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -149,7 +149,7 @@
 .button {
   color: #fff;
   text-align: center;
-  font-family: "Afacad", sans-serif;
+  font-family: "Calibri", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -198,7 +198,15 @@
 
   z-index: 1;
   width: 80%;
+}
+.health_heading p {
   margin: 0 auto;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: 0.6s ease;
 }
 .time_text {
   display: flex;
@@ -209,7 +217,7 @@
 }
 
 .event_text {
-  font-family: "Afacad", sans-serif;
+  font-family: "Calibri", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -218,12 +226,13 @@
   transition: 0.4s ease;
   margin: 8px 0;
   color: #2c392c;
+  cursor: pointer;
 }
 .event_text:hover {
   color: #824d1e;
 }
 .bangkok_text {
-  font-family: "Afacad", sans-serif;
+  font-family: "Calibri", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
@@ -232,12 +241,13 @@
   transition: 0.4s ease;
   margin: 8px 0;
   color: #2c392c;
+  cursor: pointer;
 }
 .bangkok_text:hover {
   color: #824d1e;
 }
 .time {
-  font-family: "Afacad", sans-serif;
+  font-family: "Calibri", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -256,7 +266,7 @@
 }
 .news_text {
   color: #2c392c;
-  font-family: "Afacad", sans-serif;
+  font-family: "Calibri", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -272,7 +282,7 @@
 }
 .health_text {
   color: #8e8e8e;
-  font-family: "Afacad", sans-serif;
+  font-family: "Calibri", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -402,7 +412,7 @@
   align-items: center;
   justify-content: flex-end;
   color: #99704d;
-  font-size: 20px;
+  font-size: 18px;
   gap: 5px;
 }
 @media only screen and (max-width: 1330px) {

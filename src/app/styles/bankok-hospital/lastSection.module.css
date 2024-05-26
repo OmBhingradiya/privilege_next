@@ -5,7 +5,7 @@
 
 .main_text {
   color: #2c392c;
-  font-family: "Afacad", sans-serif;
+  font-family: "Calibri", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -50,7 +50,7 @@
   align-items: center;
   justify-content: flex-end;
   color: #99704d;
-  font-size: 20px;
+  font-size: 18px;
   gap: 5px;
   margin-bottom: 10px;
 }
@@ -92,7 +92,7 @@
 }
 .grid_text p {
   color: #2c392c;
-  font-family: "Afacad", sans-serif;
+  font-family: "Calibri", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -130,10 +130,12 @@
 }
 
 .flexBox {
-  background-color: white;
   width: 100%;
   border-radius: 14px 0;
   box-shadow: 0 2px 14px rgb(144 144 144 / 20%);
+}
+.flexImage_container {
+  display: flex;
 }
 
 .flexImage {
@@ -144,24 +146,37 @@
 .flexHead {
   font-size: 20px;
   font-weight: 500;
-  font-family: "Afacad", sans-serif;
+  font-family: "Calibri", sans-serif;
   font-style: normal;
-
+  margin-bottom: 10px;
   line-height: 1.4;
   color: #2c392c;
+  display: -webkit-box;
+  width: 100%;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .flexBoxContent {
   padding: 15px 30px;
+  background-color: #fff;
 }
 
 .flexContent {
-  font-family: "Afacad", sans-serif;
+  font-family: "Calibri", sans-serif;
   font-style: normal;
-  padding: 10px 0 20px 0;
   font-size: 16px;
   font-weight: 400;
   color: #8e8e8e;
+  margin: 0;
+  display: -webkit-box;
+  width: 100%;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .aboutHead {
@@ -194,6 +209,7 @@
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   background: linear-gradient(135deg, #ffffff, #f0f0f0);
+  margin: 0 20px;
 }
 
 .imageLogo::before,
@@ -252,7 +268,7 @@
 .box_name {
   background: #dfc7ab;
   color: #2c392c;
-  font-family: "Afacad", sans-serif;
+  font-family: "Calibri", sans-serif;
   font-size: 26px;
   font-style: normal;
   font-weight: 700;
@@ -262,6 +278,9 @@
   width: 30%;
   padding: 12px 20px;
   border-radius: 6px;
+}
+.buttonDiv {
+  margin-top: 20px;
 }
 .btn {
   width: 120px;
@@ -306,15 +325,16 @@
   font-weight: 600;
 }
 
-.hr {
-  width: 20%;
-  margin: 0;
-  border: 1px solid #dfc7ab;
-}
 .btn a {
   text-decoration: none !important;
 }
 .hr {
+  height: 50px;
+  width: 1px;
+  margin: 15px 0;
+  border: 1px solid #ad8e72;
+}
+.hr2 {
   height: 50px;
   width: 1px;
   margin: 15px 0;
@@ -412,7 +432,7 @@
 }
 .connected_text {
   color: #000000;
-  font-family: "Afacad", sans-serif;
+  font-family: "Calibri", sans-serif;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
@@ -420,4 +440,101 @@
   text-align: center;
   margin: 0;
   padding: 40px 40px 20px 40px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .inner_container {
+    max-width: 80%;
+  }
+  .main_heading h2 {
+    font-size: 30px;
+  }
+  .aboutHead {
+    font-size: 30px;
+  }
+  .grid_text p {
+    font-size: 18px;
+  }
+  .imageLogo {
+    margin: 0 10px;
+  }
+  .box_name {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .flex {
+    flex-direction: column;
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .grid {
+    width: 100%;
+  }
+  .flex {
+    width: 100%;
+  }
+  .flexImageLogo {
+    flex-wrap: wrap;
+    row-gap: 20px;
+  }
+  .hr2 {
+    display: none;
+  }
+  .box_name {
+    width: 50%;
+  }
+  .award_main_box {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .connected_button_container {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+@media only screen and (max-width: 670px) {
+  .flexImageLogo {
+    flex-direction: column;
+  }
+  .hr {
+    display: none;
+  }
+  .imageLogo {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .main_heading h2 {
+    font-size: 26px;
+  }
+  .grid_text p {
+    font-size: 16px;
+  }
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .aboutHead {
+    font-size: 26px;
+  }
+  .box_name {
+    width: 60%;
+    font-size: 22px;
+  }
+  .award_main_box {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media only screen and (max-width: 375px) {
+  .first_container {
+    padding: 30px 20px 60px 20px;
+  }
+  .box_name {
+    width: 80%;
+  }
+  .connected_button button {
+    font-size: 18px;
+  }
 }

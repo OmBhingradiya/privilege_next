@@ -54,7 +54,7 @@
 
 .description {
   color: #6d766d;
-  font-family: "Afacad", sans-serif;
+  font-family: "Calibri", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -82,7 +82,7 @@
 }
 .service_title {
   color: #2c392c;
-  font-family: "Afacad", sans-serif;
+  font-family: "Calibri", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -92,7 +92,7 @@
 
 .service_description {
   color: #6d766d;
-  font-family: "Afacad", sans-serif;
+  font-family: "Calibri", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -103,7 +103,7 @@
 .button {
   color: #fff;
   text-align: center;
-  font-family: "Afacad", sans-serif;
+  font-family: "Calibri", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;

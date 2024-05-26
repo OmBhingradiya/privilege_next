@@ -1,13 +1,19 @@
-@import url("https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Calibri:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Playfair+Display&display=swap");
 
 @font-face {
   font-family: "Mories";
   src: url("/fonts/Mories.otf") format("truetype");
 }
+
+@font-face {
+  font-family: "Calibri";
+  src: url("/fonts/calibri.otf") format("truetype");
+}
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
-  --font-mono: "Afacad", sans-serif;
+  --font-mono: "Calibri", sans-serif;
 
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 255, 255, 255;
@@ -58,7 +64,7 @@
       rgba(1, 65, 255, 0),
       rgba(1, 65, 255, 0.3)
     );
-    --font-mono: "Afacad", sans-serif;
+    --font-mono: "Calibri", sans-serif;
 
     --tile-start-rgb: 2, 13, 46;
     --tile-end-rgb: 2, 5, 19;
@@ -115,10 +121,18 @@ a {
 } */
 
 #news_slider .slick-track,
-#testimonialSlider .slick-track {
+#testimonialSlider .slick-track,
+#health_slider .slick-track,
+#bangkok_slider .slick-track {
   padding: 20px 0;
 }
 #news_slider .slick-next {
+  right: -40px;
+  top: 50%;
+  width: 32px;
+  height: 32px;
+}
+#bangkok_slider .slick-next {
   right: -40px;
   top: 50%;
   width: 32px;
@@ -131,11 +145,32 @@ a {
   height: 32px;
 }
 
+#health_slider .slick-next {
+  right: -40px;
+  top: 50%;
+  width: 32px;
+  height: 32px;
+}
+
 #news_slider .slick-next:before,
-#testimonialSlider .slick-next:before {
+#testimonialSlider .slick-next:before,
+#health_slider .slick-next:before,
+#bangkok_slider .slick-next:before {
   color: transparent;
 }
 #news_slider .slick-prev {
+  left: -40px;
+  top: 50%;
+  width: 32px;
+  height: 32px;
+}
+#bangkok_slider .slick-prev {
+  left: -40px;
+  top: 50%;
+  width: 32px;
+  height: 32px;
+}
+#health_slider .slick-prev {
   left: -40px;
   top: 50%;
   width: 32px;
@@ -155,7 +190,9 @@ a {
   height: inherit !important;
 }
 #news_slider .slick-prev:before,
-#testimonialSlider .slick-prev:before {
+#testimonialSlider .slick-prev:before,
+#health_slider .slick-prev:before,
+#bangkok_slider .slick-prev:before {
   color: transparent;
 }
 @media only screen and (max-width: 1024px) {
@@ -172,6 +209,16 @@ a {
     width: 32px;
     height: 32px;
   }
+  #bangkok_slider .slick-next {
+    right: -30px;
+    width: 32px;
+    height: 32px;
+  }
+  #health_slider .slick-next {
+    right: -30px;
+    width: 32px;
+    height: 32px;
+  }
   #testimonialSlider .slick-next {
     right: -40px;
     width: 32px;
@@ -180,6 +227,17 @@ a {
 
   #news_slider .slick-prev {
     left: -50px;
+    width: 32px;
+    height: 32px;
+  }
+
+  #bangkok_slider .slick-prev {
+    left: -30px;
+    width: 32px;
+    height: 32px;
+  }
+  #health_slider .slick-prev {
+    left: -30px;
     width: 32px;
     height: 32px;
   }

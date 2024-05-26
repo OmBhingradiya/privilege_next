@@ -69,7 +69,7 @@ const HealthInfoSlider = () => {
 
   return (
     <>
-      <div className={styles.health_section} id="news_slider">
+      <div className={styles.health_section} id="health_slider">
         <div className={styles.health_viewAll}>
           <Link
             href="https://www.bangkokhospital.com/en/health-info"

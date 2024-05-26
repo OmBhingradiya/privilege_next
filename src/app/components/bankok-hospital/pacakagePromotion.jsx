@@ -170,7 +170,7 @@ const PacakagePromotion = () => {
               </div>
               <div className={styles.flex}>
                 <div className={styles.flexBox}>
-                  <div>
+                  <div className={styles.flexImage_container}>
                     <img
                       src="/bankok_hospital/Rectangle 647.png"
                       alt="img"
@@ -182,8 +182,10 @@ const PacakagePromotion = () => {
                       DO NOT MISS OUT! Vaccine Promotions For Seniors
                     </h3>
                     <p className={styles.flexContent}>
-                      When Reaching Age 50+, Immune System Undergoes Dramatic
-                      Aging-Related ....
+                      When reaching age 50+, immune system undergoes dramatic
+                      aging-related changes. Boost up immunity in the elderly to
+                      prevent infections and reduce disease severity with
+                      essential vaccines.
                     </p>
                     <div className={styles.buttonDiv}>
                       <button className={styles.btn}>
@@ -223,7 +225,7 @@ const PacakagePromotion = () => {
                   </div>
                 </div>
                 <div className={styles.flexBox}>
-                  <div>
+                  <div className={styles.flexImage_container}>
                     <img
                       src="/bankok_hospital/Rectangle 656.png"
                       alt="img"
@@ -236,7 +238,8 @@ const PacakagePromotion = () => {
                     </h3>
                     <p className={styles.flexContent}>
                       “Swollen body, swollen leg and feet, cramping, frequent
-                      urination, diabetes ....
+                      urination, diabetes and hypertension”. Do not overlook
+                      these warning signs of KIDNEY DISEASE.
                     </p>
                     <div className={styles.buttonDiv}>
                       <button className={styles.btn}>
@@ -276,7 +279,7 @@ const PacakagePromotion = () => {
                   </div>
                 </div>
                 <div className={styles.flexBox}>
-                  <div>
+                  <div className={styles.flexImage_container}>
                     <img
                       src="/bankok_hospital/Rectangle 659.png"
                       alt="img"
@@ -288,8 +291,9 @@ const PacakagePromotion = () => {
                       Health Check-Up Packages{" "}
                     </h3>
                     <p className={styles.flexContent}>
-                      Bangkok Health Check-up Center | Bangkok Hospital Thailand
-                      ..
+                      HEALTH DESIGN CENTER | In order to prevent the
+                      transmission of COVID-19 and maintain social distancing,
+                      please make an appointment at least 3 days in advance.
                     </p>
                     <div className={styles.buttonDiv}>
                       <button className={styles.btn}>

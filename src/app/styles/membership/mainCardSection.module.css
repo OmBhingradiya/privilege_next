@@ -38,7 +38,7 @@
 .membership_validity > p:first-child,
 .membership_points > p:first-child {
   color: #936e4e;
-  font-family: "Afacad", sans-serif;
+  font-family: "Calibri", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -51,7 +51,7 @@
 .membership_validity > p:nth-child(2n),
 .membership_points > p:nth-child(2n) {
   color: #fff;
-  font-family: "Afacad", sans-serif;
+  font-family: "Calibri", sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -144,7 +144,7 @@
 .membership_button_container button {
   /* color: #fff; */
   /* text-align: center; */
-  /* font-family: "Afacad", sans-serif; */
+  /* font-family: "Calibri", sans-serif; */
   /* font-size: 16px; */
   /* font-style: normal; */
   /* font-weight: 400; */

@@ -143,7 +143,10 @@ const NewsSlider = ({ props }) => {
 
   return (
     <>
-      <div className={styles.news_section} id="news_slider">
+      <div
+        className={styles.news_section}
+        id={`${isBangkok ? `bangkok_slider` : `news_slider`}`}
+      >
         <Slider {...settings}>
           {(isBangkok ? bangkokData : data).map((item, index) => {
             return (

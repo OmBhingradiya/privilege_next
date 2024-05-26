@@ -39,7 +39,7 @@
 }
 .sub_heading {
   color: #2c392c;
-  font-family: "Afacad", sans-serif;
+  font-family: "Calibri", sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -89,7 +89,7 @@
   opacity: 0;
   visibility: hidden;
   transform: translateY(10px);
-  font-family: "Afacad", sans-serif;
+  font-family: "Calibri", sans-serif;
   font-size: 12px;
   font-weight: 400;
   margin: 0;
@@ -112,13 +112,13 @@
   opacity: 0;
   visibility: hidden;
   transform: translateY(10px);
-  font-family: "Afacad", sans-serif;
+  font-family: "Calibri", sans-serif;
 }
 .card_span {
   color: #936e4e;
 }
 .membershipFees {
-  font-family: "Afacad", sans-serif;
+  font-family: "Calibri", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
@@ -154,7 +154,7 @@
   overflow: hidden;
   color: #fff;
   text-align: center;
-  font-family: "Afacad", sans-serif;
+  font-family: "Calibri", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;

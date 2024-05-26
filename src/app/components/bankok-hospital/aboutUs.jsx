@@ -164,7 +164,7 @@ const AboutUs = () => {
                 <img src="/bankok_hospital/bih 1.svg" alt="heart" />
               </div>
               <div>
-                <hr className={styles.hr} />
+                <hr className={styles.hr2} />
               </div>
               <div className={styles.imageLogo}>
                 <img src="/bankok_hospital/wsh 1.svg" alt="heart" />

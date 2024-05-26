@@ -6,18 +6,25 @@ import { GoMail } from "react-icons/go";
 import { IoLocationSharp } from "react-icons/io5";
 import { FaFilePdf } from "react-icons/fa";
 import HeroSection from "../components/membership/heroSection";
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Link from "next/link";
 import Image from "next/image";
 
 const ContactUs = () => {
+  const contactFormRef = useRef(null);
   useEffect(() => {
     AOS.init({
       duration: 1200,
     });
   }, []);
+
+  const scrollToContactForm = () => {
+    if (contactFormRef.current) {
+      contactFormRef.current.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <>
       <div className="mainPage_class">
@@ -228,21 +235,24 @@ const ContactUs = () => {
                   </p>
                 </div>
                 <div className={styles.contactCenterBtnDiv}>
-                  <Link
-                    href="https://www.thailandprivilege.co.th/contact"
-                    target="_blank"
+                  {/* <Link */}
+                  {/* href="https://www.thailandprivilege.co.th/contact" */}
+                  {/* target="_blank" */}
+                  {/* > */}
+                  <button
+                    className={styles.contactCenterBtn}
+                    onClick={scrollToContactForm}
                   >
-                    <button className={styles.contactCenterBtn}>
-                      Become A Partnership
-                    </button>
-                  </Link>
+                    Become A Partnership
+                  </button>
+                  {/* </Link> */}
                 </div>
               </div>
             </div>
           </div>
         </div>
         {/* ======================================================================================= */}
-        <div className={styles.contactFormMainDiv}>
+        <div className={styles.contactFormMainDiv} ref={contactFormRef}>
           <div className={styles.contactFormSubDiv}>
             <div className={styles.contactFormHeadDiv}>
               <p className={styles.contactFormHead} data-aos="fade-down">
