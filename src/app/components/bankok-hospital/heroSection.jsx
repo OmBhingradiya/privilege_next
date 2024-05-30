@@ -30,7 +30,7 @@ const HeroSection = () => {
             </div> */}
             <div className={styles.main_image}>
               <Image
-                src="/bankok_hospital/banner.png"
+                src="/bankok_hospital/banner.webp"
                 alt="banner image"
                 width={1157}
                 height={458}

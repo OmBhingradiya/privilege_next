@@ -37,7 +37,7 @@ const FirstSection = () => {
               </Link> */}
               <Image
                 className={styles.main_thailand_image}
-                src="/Thailand Privilege.jpg"
+                src="/home/Thailand Privilege.webp"
                 alt="Thailand Privilege Residence Program"
                 data-aos="fade-down"
                 width={1091}
@@ -68,7 +68,7 @@ const FirstSection = () => {
                 </div>
                 <div className={styles.homeImgDiv} data-aos="fade-right">
                   <Image
-                    src="/Privilege Image 1.png"
+                    src="/home/Privilege Image 1.webp"
                     alt="Thai Elite Visa"
                     className={styles.homeImg}
                     width={420}
@@ -100,7 +100,7 @@ const FirstSection = () => {
                 </div>
                 <div className={styles.homeImgDiv} data-aos="fade-up">
                   <Image
-                    src="/Privilege Image 2.png"
+                    src="/home/Privilege Image 2.webp"
                     alt="Thai Retirement Visa"
                     className={styles.homeImg}
                     width={420}
@@ -131,7 +131,7 @@ const FirstSection = () => {
                 </div>
                 <div className={styles.homeImgDiv} data-aos="fade-left">
                   <Image
-                    src="/Privilege Image 3.png"
+                    src="/home/Privilege Image 3.webp"
                     alt="Thailand Investment Visa"
                     className={styles.homeImg}
                     width={420}

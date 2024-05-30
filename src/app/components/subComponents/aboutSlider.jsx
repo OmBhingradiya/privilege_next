@@ -211,7 +211,7 @@ const AboutSlider = () => {
                     width={572}
                     height={363}
                     layout="responsive"
-                    src="/aboutSlider/about_slider1.jpg"
+                    src="/aboutSlider/about_slider1.webp"
                   />
                 </div>
                 <div className={styles.text_container}>
@@ -239,7 +239,7 @@ const AboutSlider = () => {
                     width={572}
                     height={363}
                     layout="responsive"
-                    src="/aboutSlider/about_slider2.png"
+                    src="/aboutSlider/about_slider2.webp"
                   />
                 </div>
                 <div className={styles.text_container}>
@@ -265,7 +265,7 @@ const AboutSlider = () => {
                     width={572}
                     height={363}
                     layout="responsive"
-                    src="/aboutSlider/about_slider3.png"
+                    src="/aboutSlider/about_slider3.webp"
                   />
                 </div>
                 <div className={styles.text_container}>
@@ -323,14 +323,14 @@ const AboutSlider = () => {
                     width={572}
                     height={363}
                     layout="responsive"
-                    src="/aboutSlider/about_slider4.png"
+                    src="/aboutSlider/about_slider4.webp"
                   />
                   <Image
                     alt="Our More Info"
                     width={572}
                     height={363}
                     layout="responsive"
-                    src="/aboutSlider/about_slider5.png"
+                    src="/aboutSlider/about_slider5.webp"
                   />
                 </div>
                 <div className={styles.text_container}>
@@ -362,28 +362,28 @@ const AboutSlider = () => {
                     width={572}
                     height={363}
                     layout="responsive"
-                    src="/aboutSlider/about_slider6.png"
+                    src="/aboutSlider/about_slider6.webp"
                   />
                   <Image
                     alt="Our More Info"
                     width={572}
                     height={363}
                     layout="responsive"
-                    src="/aboutSlider/about_slider7.png"
+                    src="/aboutSlider/about_slider7.webp"
                   />
                   <Image
                     alt="Our More Info"
                     width={572}
                     height={363}
                     layout="responsive"
-                    src="/aboutSlider/about_slider8.png"
+                    src="/aboutSlider/about_slider8.webp"
                   />
                   <Image
                     alt="Our More Info"
                     width={572}
                     height={363}
                     layout="responsive"
-                    src="/aboutSlider/about_slider9.png"
+                    src="/aboutSlider/about_slider9.webp"
                   />
                 </div>
                 <div className={styles.text_container}>

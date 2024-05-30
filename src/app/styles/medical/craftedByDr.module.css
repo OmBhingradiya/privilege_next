@@ -172,9 +172,9 @@
   }
 }
 @media only screen and (max-width: 375px) {
-  .container {
+  /* .container {
     padding: 40px;
-  }
+  } */
 }
 .visually_hidden {
   position: absolute;

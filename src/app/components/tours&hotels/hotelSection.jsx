@@ -11,32 +11,10 @@ const HotelSection = () => {
       duration: 1200,
     });
   }, []);
-  const demoData = [
-    {
-      hotelImageUrl: "./tours&hotel/hotel_1.png",
-      title: "silavadee resort",
-      text: "SATHORN ROAD, 1.8 KM, 20 MINUTE WALK OR 7 MINUTE DRIVE",
-      description:
-        "Silavadee is luxury with a breathtaking view. A total of 80 rooms, infinity-edge pool villas and pool villa suites are built on the cliff of Laem Nan beach, the most beauteous and exclusive beach on Samui island. Tucked away from the busy world yet only a short drive from it all. The perfect combination of the magnificent land-sea and skyscape with our renowned high level of personal services is what makes Silavadee Pool Spa Resort Samui romantic and special.",
-    },
-    {
-      hotelImageUrl: "./tours&hotel/hotel_2.png",
-      title: "the beach samui",
-      text: "SATHORN ROAD, 1.8 KM, 20 MINUTE WALK OR 7 MINUTE DRIVE",
-      description:
-        "Travellers, wander lusters and wellness-seekers alike are invited to experience The Beach Samui, an award-winning all-suite boutique hotel, set on a coral-strewn beach in a traditional fishing village, with far-reaching views across southern Koh Samui’s archipelago, the perfect base from which to explore this virgin coast, while experiencing life as a local.",
-    },
-    {
-      hotelImageUrl: "./tours&hotel/hotel_3.png",
-      title: "dusit",
-      text: "SATHORN ROAD, 1.8 KM, 20 MINUTE WALK OR 7 MINUTE DRIVE",
-      description:
-        "With a heartfelt belief and commitment to introducing Thai hospitality to the world, we offer guests a uniquely special stay in high-style surroundings and a personalised  approach to service. Our portfolio of brands offers distinctive experiences, all united by service that is warm, attentive and above all, gracious.",
-    },
-  ];
+
   const data = [
     {
-      hotelImageUrl: "/tours&hotel/hotel/1.png",
+      hotelImageUrl: "/tours&hotel/hotel/1.webp",
       title: "SILAVADEE RESORT",
       text: "SATHORN ROAD, 1.8 KM, 20 MINUTE WALK OR 7 MINUTE DRIVE",
       description:
@@ -45,7 +23,7 @@ const HotelSection = () => {
       link: "https://www.silavadeeresort.com",
     },
     {
-      hotelImageUrl: "/tours&hotel/hotel/2.png",
+      hotelImageUrl: "/tours&hotel/hotel/2.webp",
       title: "THE BEACH SAMUI",
       text: "SATHORN ROAD, 1.8 KM, 20 MINUTE WALK OR 7 MINUTE DRIVE",
       description:
@@ -53,7 +31,7 @@ const HotelSection = () => {
       link: "https://www.thebeachsamui.com",
     },
     {
-      hotelImageUrl: "/tours&hotel/hotel/3.png",
+      hotelImageUrl: "/tours&hotel/hotel/3.webp",
       title: "DUSIT",
       text: "SATHORN ROAD, 1.8 KM, 20 MINUTE WALK OR 7 MINUTE DRIVE",
       description:
@@ -61,7 +39,7 @@ const HotelSection = () => {
       link: "https://www.dusit.com",
     },
     {
-      hotelImageUrl: "/tours&hotel/hotel/4.png",
+      hotelImageUrl: "/tours&hotel/hotel/4.webp",
       title: "S HOTELS RESORTS",
       text: "SATHORN ROAD, 1.8 KM, 20 MINUTE WALK OR 7 MINUTE DRIVE",
       description:
@@ -69,7 +47,7 @@ const HotelSection = () => {
       link: "https://www.shotelsresorts.com",
     },
     {
-      hotelImageUrl: "/tours&hotel/hotel/5.png",
+      hotelImageUrl: "/tours&hotel/hotel/5.webp",
       title: "SAII RESORTS",
       text: "SATHORN ROAD, 1.8 KM, 20 MINUTE WALK OR 7 MINUTE DRIVE",
       description: `SAii, a sustainable lifestyle resort brand, offers global experience seekers down-to-earth luxury and curated journey in key destinations in Asia Pacific and the Indian Ocean.
@@ -77,7 +55,7 @@ const HotelSection = () => {
       link: "https://www.saiiresorts.com",
     },
     {
-      hotelImageUrl: "/tours&hotel/hotel/6.png",
+      hotelImageUrl: "/tours&hotel/hotel/6.webp",
       title: "FRASERS HOSPITALITY",
       text: "SATHORN ROAD, 1.8 KM, 20 MINUTE WALK OR 7 MINUTE DRIVE",
       description:
@@ -85,7 +63,7 @@ const HotelSection = () => {
       link: "https://www.frasershospitality.com/en/locations",
     },
     {
-      hotelImageUrl: "/tours&hotel/hotel/7.png",
+      hotelImageUrl: "/tours&hotel/hotel/7.webp",
       title: "ONE HOSPITALITY",
       text: "SATHORN ROAD, 1.8 KM, 20 MINUTE WALK OR 7 MINUTE DRIVE",
       description:
@@ -93,7 +71,7 @@ const HotelSection = () => {
       link: "https://www.onehospitality.group/catering",
     },
     {
-      hotelImageUrl: "/tours&hotel/hotel/8.png",
+      hotelImageUrl: "/tours&hotel/hotel/8.webp",
       title: "CENTARA HOTELS RESORTS",
       text: "SATHORN ROAD, 1.8 KM, 20 MINUTE WALK OR 7 MINUTE DRIVE",
       description:
@@ -101,7 +79,7 @@ const HotelSection = () => {
       link: "https://www.centarahotelsresorts.com",
     },
     {
-      hotelImageUrl: "/tours&hotel/hotel/9.png",
+      hotelImageUrl: "/tours&hotel/hotel/9.webp",
       title: "MONTARA HOSPITALITY",
       text: "SATHORN ROAD, 1.8 KM, 20 MINUTE WALK OR 7 MINUTE DRIVE",
       description:
@@ -109,7 +87,7 @@ const HotelSection = () => {
       link: "https://www.montarahospitality.com/live/praya-palazzo",
     },
     {
-      hotelImageUrl: "/tours&hotel/hotel/10.png",
+      hotelImageUrl: "/tours&hotel/hotel/10.webp",
       title: "TRISARA",
       text: "SATHORN ROAD, 1.8 KM, 20 MINUTE WALK OR 7 MINUTE DRIVE",
       description:
@@ -117,7 +95,7 @@ const HotelSection = () => {
       link: "https://trisara.com",
     },
     {
-      hotelImageUrl: "/tours&hotel/hotel/11.png",
+      hotelImageUrl: "/tours&hotel/hotel/11.webp",
       title: "Modena by Fraser Suites",
       text: "SATHORN ROAD, 1.8 KM, 20 MINUTE WALK OR 7 MINUTE DRIVE",
       description:
@@ -125,7 +103,7 @@ const HotelSection = () => {
       link: "https://www.frasershospitality.com/en/thailand/bangkok/modena-by-fraser-bangkok/?utm_source=google,+facebook&utm_medium=cpc,+banner&utm_campaign=Happy+Easter+Egg",
     },
     {
-      hotelImageUrl: "/tours&hotel/hotel/12.png",
+      hotelImageUrl: "/tours&hotel/hotel/12.webp",
       title: "AETAS Lumpini",
       text: "SATHORN ROAD, 1.8 KM, 20 MINUTE WALK OR 7 MINUTE DRIVE",
       description: `Discover Bangkok's urban retreat, AETAS Lumpini Hotel. Located just 2 minutes from MRT Lumpini, our hotel provides unparalleled convenience. Experience genuine hospitality from our dedicated staff, converting your stay into a true "home away from home."
@@ -133,7 +111,7 @@ const HotelSection = () => {
       link: "https://lumpini.aetashotels.com",
     },
     {
-      hotelImageUrl: "/tours&hotel/hotel/13.png",
+      hotelImageUrl: "/tours&hotel/hotel/13.webp",
       title: "SO Bangkok",
       text: "SATHORN ROAD, 1.8 KM, 20 MINUTE WALK OR 7 MINUTE DRIVE",
       description:
@@ -141,7 +119,7 @@ const HotelSection = () => {
       link: "https://www.so-bangkok.com/",
     },
     {
-      hotelImageUrl: "/tours&hotel/hotel/15.png",
+      hotelImageUrl: "/tours&hotel/hotel/15.webp",
       title: "RUNESU",
       text: "SATHORN ROAD, 1.8 KM, 20 MINUTE WALK OR 7 MINUTE DRIVE",
       description:
@@ -149,7 +127,7 @@ const HotelSection = () => {
       link: "https://www.runesuthonglor5.com",
     },
     {
-      hotelImageUrl: "/tours&hotel/hotel/14.png",
+      hotelImageUrl: "/tours&hotel/hotel/14.webp",
       title: "AT EASE",
       text: "SATHORN ROAD, 1.8 KM, 20 MINUTE WALK OR 7 MINUTE DRIVE",
       description:

@@ -29,7 +29,7 @@ const SpecialDeal = () => {
                 width={477}
                 height={477}
                 layout="responsive"
-                src="/tours&hotel/specialDeal_1.png"
+                src="/tours&hotel/specialDeal_1.webp"
                 alt="special deal offer 1"
               />
             </div>
@@ -38,7 +38,7 @@ const SpecialDeal = () => {
                 width={477}
                 height={477}
                 layout="responsive"
-                src="/tours&hotel/specialDeal_2.png"
+                src="/tours&hotel/specialDeal_2.webp"
                 alt="special deal offer 2"
               />
             </div>
@@ -47,7 +47,7 @@ const SpecialDeal = () => {
                 width={477}
                 height={477}
                 layout="responsive"
-                src="/tours&hotel/specialDeal_3.png"
+                src="/tours&hotel/specialDeal_3.webp"
                 alt="special deal offer 3"
               />
             </div>

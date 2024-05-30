@@ -68,7 +68,7 @@ const About = () => {
               <div className={styles.uniqueImgsDiv}>
                 <div className={styles.uniquenessFirstPart}>
                   <Image
-                    src="/uniquenessImg.png"
+                    src="/uniquenessImg.webp"
                     width={611}
                     height={746}
                     alt="uniquenessImg 1"
@@ -92,7 +92,7 @@ const About = () => {
                     <div className={styles.uniqueSecImgDiv}>
                       <div className={styles.shadow}></div>
                       <Image
-                        src="/unique2.png"
+                        src="/unique2.webp"
                         width={254}
                         height={311}
                         alt="uniquenessImg 2"
@@ -116,7 +116,7 @@ const About = () => {
                     <div className={styles.uniqueSecImgDiv}>
                       <div className={styles.shadow}></div>
                       <Image
-                        src="/unique3.png"
+                        src="/unique3.webp"
                         width={254}
                         height={311}
                         alt="uniquenessImg 3"
@@ -314,7 +314,7 @@ const About = () => {
                 height={456}
                 layout="responsive"
                 alt="our info"
-                src="/valuesImg.jpeg"
+                src="/valuesImg.webp"
                 className={styles.valuesImg}
               />
             </div>

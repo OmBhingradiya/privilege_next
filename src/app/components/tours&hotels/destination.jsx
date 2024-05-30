@@ -22,7 +22,7 @@ const Destination = () => {
             <div className={styles.destination_box} data-aos="fade-right">
               <div className={styles.destination_image}>
                 <Image
-                  src="/tours&hotel/destination_1.png"
+                  src="/tours&hotel/destination_1.webp"
                   alt="destination 1"
                   width={355}
                   height={273}
@@ -42,7 +42,7 @@ const Destination = () => {
             <div className={styles.destination_box2} data-aos="fade-left">
               <div className={styles.destination_image2}>
                 <Image
-                  src="/tours&hotel/destination_3.png"
+                  src="/tours&hotel/destination_3.webp"
                   alt="destination 2"
                   width={355}
                   height={273}
@@ -61,7 +61,7 @@ const Destination = () => {
             <div className={styles.destination_box} data-aos="fade-right">
               <div className={styles.destination_image}>
                 <Image
-                  src="/tours&hotel/destination_2.png"
+                  src="/tours&hotel/destination_2.webp"
                   alt="destination 3"
                   width={355}
                   height={273}
@@ -82,7 +82,7 @@ const Destination = () => {
             <div className={styles.destination_box2} data-aos="fade-left">
               <div className={styles.destination_image2}>
                 <Image
-                  src="/tours&hotel/destination_4.png"
+                  src="/tours&hotel/destination_4.webp"
                   alt="destination 4"
                   width={355}
                   height={273}

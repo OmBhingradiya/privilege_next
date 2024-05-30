@@ -172,7 +172,7 @@ const PacakagePromotion = () => {
                 <div className={styles.flexBox}>
                   <div className={styles.flexImage_container}>
                     <img
-                      src="/bankok_hospital/Rectangle 647.png"
+                      src="/bankok_hospital/Rectangle 647.webp"
                       alt="img"
                       className={styles.flexImage}
                     />
@@ -227,7 +227,7 @@ const PacakagePromotion = () => {
                 <div className={styles.flexBox}>
                   <div className={styles.flexImage_container}>
                     <img
-                      src="/bankok_hospital/Rectangle 656.png"
+                      src="/bankok_hospital/Rectangle 656.webp"
                       alt="img"
                       className={styles.flexImage}
                     />
@@ -281,7 +281,7 @@ const PacakagePromotion = () => {
                 <div className={styles.flexBox}>
                   <div className={styles.flexImage_container}>
                     <img
-                      src="/bankok_hospital/Rectangle 659.png"
+                      src="/bankok_hospital/Rectangle 659.webp"
                       alt="img"
                       className={styles.flexImage}
                     />

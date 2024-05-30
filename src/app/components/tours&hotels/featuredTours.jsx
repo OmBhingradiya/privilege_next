@@ -13,32 +13,32 @@ const FeaturedTours = () => {
   }, []);
   const data = [
     {
-      featuredTours_imageUrl: "/tours&hotel/featuredTours_1.png",
+      featuredTours_imageUrl: "/tours&hotel/featuredTours_1.webp",
       text: "SPLENDID LEISURE JOURNEY IN VIETNAM & THAILAND 17 DAYS 16 NIGHTS",
       link: "https://thaiunikatravel.com/tour/splendidleisurejourneyvietnamthailand",
     },
     {
-      featuredTours_imageUrl: "/tours&hotel/featuredTours_2.png",
+      featuredTours_imageUrl: "/tours&hotel/featuredTours_2.webp",
       text: "HOME AWAY FROM HOME IN BANGKOK & PHU QUOC (12D11N)",
       link: "https://thaiunikatravel.com/tour/home-away-from-home-in-bangkok-phu-quoc",
     },
     {
-      featuredTours_imageUrl: "/tours&hotel/featuredTours_3.png",
+      featuredTours_imageUrl: "/tours&hotel/featuredTours_3.webp",
       text: "UNSEEN SOUTHERN THAILAND 12 DAYS",
       link: "https://thaiunikatravel.com/tour/unseen-southern-thailand-12-days",
     },
     {
-      featuredTours_imageUrl: "/tours&hotel/featuredTours_4.png",
+      featuredTours_imageUrl: "/tours&hotel/featuredTours_4.webp",
       text: "MAE HONG SON HIGHLAND LOOPS 15 DAYS",
       link: "https://thaiunikatravel.com/tour/mae-hong-son-highland-loops-15-days",
     },
     {
-      featuredTours_imageUrl: "/tours&hotel/featuredTours_5.png",
+      featuredTours_imageUrl: "/tours&hotel/featuredTours_5.webp",
       text: "LESS VISITED THAILAND 17 DAYS 16 NIGHTS",
       link: "https://thaiunikatravel.com/tour/less-visited-thailand-17-days-16-nights",
     },
     {
-      featuredTours_imageUrl: "/tours&hotel/featuredTours_6.png",
+      featuredTours_imageUrl: "/tours&hotel/featuredTours_6.webp",
       text: "NORTHERN OF THAILAND ADVENTURE 11 DAYS",
       link: "https://thaiunikatravel.com/tour/northern-of-thailand-adventure-11-days",
     },

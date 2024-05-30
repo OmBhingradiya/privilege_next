@@ -11,21 +11,21 @@ const TestimonialSlider = () => {
 
   const testimonialData = [
     {
-      imgUrl: "/TESTIMONIAL-1.png",
+      imgUrl: "/home/TESTIMONIAL-1.webp",
       reviewerName: "Jacob Jones",
       reviewerPost: "TOURIST",
       review:
         "Living in Thailand has granted me the privilege of experiencing a culture so rich and diverse. The warm hospitality, coupled with stunning landscapes, makes every day a unique and enriching journey.",
     },
     {
-      imgUrl: "/TESTIMONIAL-2.png",
-      reviewerName: "Robert Fox",
+      imgUrl: "/home/TESTIMONIAL-2.webp",
+      reviewerName: "Heli Fox",
       reviewerPost: "TOURIST",
       review:
         "As an entrepreneur, the privileges of doing business in Thailand are unparalleled. The supportive business environment and access to a diverse market have significantly contributed to the success of my ventures.",
     },
     {
-      imgUrl: "/TESTIMONIAL-3.png",
+      imgUrl: "/home/TESTIMONIAL-3.webp",
       reviewerName: "Krish Hawkins",
       reviewerPost: "TOURIST",
       review:

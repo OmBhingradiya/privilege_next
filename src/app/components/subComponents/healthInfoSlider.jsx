@@ -11,28 +11,28 @@ import { HiOutlineArrowRight } from "react-icons/hi";
 const data = [
   {
     title: "Pneumonia Vaccination: Increase Your Immunity Before It’s Too Late",
-    imgUrl: "/bankok_hospital/healthInfo1.png",
+    imgUrl: "/bankok_hospital/healthInfo1.webp",
     description:
       "Pneumonia, if left untreated, can be fatal.  So, vaccination against pneumonia is something that should not be neglected, particularly by those over 65 whose immunity is already waning. Should they contract pneumonia and it becomes severe, they can experience life-threatening complications.",
     link: "https://www.bangkokhospital.com/en/content/pneumococcal-vaccine",
   },
   {
     title: "What You Should Know Before Upper Abdominal Endoscopy",
-    imgUrl: "/bankok_hospital/healthInfo2.png",
+    imgUrl: "/bankok_hospital/healthInfo2.webp",
     description:
       "If you experience consistent upper abdominal pain as well as other abnormalities in your digestive system, you need to have upper endoscopic examination to determine, evaluate and treat your problems from an early stage so you restore your quality of life right away.",
     link: "https://www.bangkokhospital.com/en/content/before-endoscopy-to-examine-the-upper-digestive-tract",
   },
   {
     title: "Hormones Therapy: How Much Is Enough?",
-    imgUrl: "/bankok_hospital/healthInfo3.png",
+    imgUrl: "/bankok_hospital/healthInfo3.webp",
     description:
       "Hormones Therapy: How Much Is Enough? Share Hormones replacement therapy is very popular among trans and gender-diverse persons. But many people neglect their hormone intake or take it inconsistently which will have negative impact on them in the long run.",
     link: "https://www.bangkokhospital.com/en/content/how-to-take-hormones-to-suit-yourself",
   },
   {
     title: "Pneumonia Vaccination: Increase Your Immunity Before It’s Too Late",
-    imgUrl: "/bankok_hospital/healthInfo1.png",
+    imgUrl: "/bankok_hospital/healthInfo1.webp",
     description:
       "Pneumonia, if left untreated, can be fatal.  So, vaccination against pneumonia is something that should not be neglected, particularly by those over 65 whose immunity is already waning. Should they contract pneumonia and it becomes severe, they can experience life-threatening complications.",
     link: "https://www.bangkokhospital.com/en/content/pneumococcal-vaccine",

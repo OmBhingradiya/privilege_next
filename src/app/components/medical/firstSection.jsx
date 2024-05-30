@@ -31,7 +31,7 @@ const FirstSection = () => {
             </div> */}
             <div className={styles.main_image}>
               <Image
-                src="/medical/medPark_firstSection.png"
+                src="/medical/medPark_firstSection.webp"
                 alt="medcare image"
                 width={1157}
                 height={458}

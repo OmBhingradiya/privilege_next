@@ -8,8 +8,8 @@ const MainCardSection = () => {
   const data = [
     {
       type: "RESERVE",
-      bgImage: "./membership/reserve_bg.jpg",
-      mainImage: "/membership/reserve_card.png",
+      bgImage: "./membership/reserve_bg.webp",
+      mainImage: "/membership/reserve_card.webp",
       title: "reserve_card",
       membershipFees: "THB 5,000,000 ",
       membershipValidity: "20 Years ++",
@@ -25,8 +25,8 @@ const MainCardSection = () => {
     },
     {
       type: "DIAMOND",
-      bgImage: "./membership/diamond_bg.jpg",
-      mainImage: "/membership/diamond_card.png",
+      bgImage: "./membership/diamond_bg.webp",
+      mainImage: "/membership/diamond_card.webp",
       title: "diamond_card",
       membershipFees: "THB 2,500,000 ",
       membershipValidity: "15 Years ++",
@@ -42,8 +42,8 @@ const MainCardSection = () => {
     },
     {
       type: "PLATINUM",
-      bgImage: "./membership/platinum_bg.jpg",
-      mainImage: "/membership/platinum_card.png",
+      bgImage: "./membership/platinum_bg.webp",
+      mainImage: "/membership/platinum_card.webp",
       title: "platinum_card",
       membershipFees: "THB 1,500,000 ",
       membershipValidity: "10 Years ++",
@@ -59,8 +59,8 @@ const MainCardSection = () => {
     },
     {
       type: "GOLD",
-      bgImage: "./membership/gold_bg.jpg",
-      mainImage: "/membership/gold_card.png",
+      bgImage: "./membership/gold_bg.webp",
+      mainImage: "/membership/gold_card.webp",
       title: "gold_card",
       membershipFees: "THB 900,000 ",
       membershipValidity: "5 Years ++",

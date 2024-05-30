@@ -425,7 +425,7 @@ const Header = () => {
                         className={headerStyles.link_style}
                         onClick={handleLinkClick}
                       >
-                        Bankok hospital
+                        Bangkok hospital
                       </Link>
                     </div>
                     <div className={headerStyles.linksDiv}>

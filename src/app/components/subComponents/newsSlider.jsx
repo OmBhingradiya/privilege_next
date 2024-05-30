@@ -11,35 +11,35 @@ const data = [
   {
     event: "E-News",
     time: "1 Min Read",
-    imgUrl: "/home/news/enews1.png",
+    imgUrl: "/home/news/enews1.webp",
     description: "privilege news march 2024",
     link: "https://www.thailandprivilege.co.th/news/privilege-news-march-2024",
   },
   {
     event: "E-News",
     time: "1 Min Read",
-    imgUrl: "/home/news/enews2.png",
+    imgUrl: "/home/news/enews2.webp",
     description: "privilege news february 2024",
     link: "https://www.thailandprivilege.co.th/news/privilege-news-february-2024",
   },
   {
     event: "E-News",
     time: "1 Min Read",
-    imgUrl: "/home/news/enews3.png",
+    imgUrl: "/home/news/enews3.webp",
     description: "privilege news january 2024",
     link: "https://www.thailandprivilege.co.th/news/privilege-news-january-2024",
   },
   {
     event: "E-News",
     time: "1 Min Read",
-    imgUrl: "/home/news/enews4.png",
+    imgUrl: "/home/news/enews4.webp",
     description: "privilege news december 2023",
     link: "https://www.thailandprivilege.co.th/news/privilege-news-december-2023",
   },
   {
     event: "Press",
     time: "5 Min Read",
-    imgUrl: "/home/news/press2.png",
+    imgUrl: "/home/news/press2.webp",
     description:
       "Thailand Privilege Card showcases 2023 outlook with record-breaking 11,846 membership",
     link: "https://www.thailandprivilege.co.th/news/thailand-privilege-card-showcases-2023-outlook-with-record-breaking-11-846-membership",
@@ -47,28 +47,28 @@ const data = [
   {
     event: "Press",
     time: "2 Min Read",
-    imgUrl: "/home/news/press3.png",
+    imgUrl: "/home/news/press3.webp",
     description: "Membership Upgrade Information",
     link: "https://www.thailandprivilege.co.th/news/membership-upgrade-information",
   },
   {
     event: "Press",
     time: "2 Min Read",
-    imgUrl: "/home/news/press1.png",
+    imgUrl: "/home/news/press1.webp",
     description: "Membership Application Fee of 50,000 Baht",
     link: "https://www.thailandprivilege.co.th/news/membership-application-fee-of-50-000-baht",
   },
   {
     event: "Events",
     time: "1 Min Read",
-    imgUrl: "/home/news/event1.png",
+    imgUrl: "/home/news/event1.webp",
     description: "Full Video Press Conference from Events",
     link: "https://www.thailandprivilege.co.th/news/video-press-conference",
   },
   {
     event: "Events",
     time: "1 Min Read",
-    imgUrl: "/home/news/event2.png",
+    imgUrl: "/home/news/event2.webp",
     description:
       "Thailand Privilege Card Co., Ltd. convened a meeting with GSSA",
     link: "https://www.thailandprivilege.co.th/news/thailand-privilege-card-co-ltd-convened-a-meeting-with-gssa",
@@ -76,7 +76,7 @@ const data = [
   {
     event: "Events",
     time: "1 Min Read",
-    imgUrl: "/home/news/event3.png",
+    imgUrl: "/home/news/event3.webp",
     description:
       "Navigating Your Golden Years: A Comprehensive Guide to the Retirement Visa in Thailand",
     link: "https://www.thailandprivilege.co.th/news/thailand-privilege-card-marks-20th-anniversary",
@@ -87,27 +87,27 @@ const bangkokData = [
   {
     title: "Enlarged prostate",
     description: "Every mission is possible with all treatments options",
-    imgUrl: "/bankok_hospital/services1.png",
+    imgUrl: "/bankok_hospital/services1.webp",
     link: "https://www.bangkokhospital.com/en/campaign/benign-prostatic-hyperplasia",
   },
   {
     title: "Choose your annual health check-up.",
     description:
       "Get FREE Gevity nutritional supplement pack. (January 4th - June 30th 2024)",
-    imgUrl: "/bankok_hospital/services2.png",
+    imgUrl: "/bankok_hospital/services2.webp",
     link: "https://www.bangkokhospital.com/en/package/health-check-up-packages",
   },
   {
     title: "The da Vinci Xi Robot-Assisted Surgery",
     description:
       "An Intelligent Surgical Solution for Advanced Minimally Invasive Surgery to Enhance...",
-    imgUrl: "/bankok_hospital/services3.png",
+    imgUrl: "/bankok_hospital/services3.webp",
     link: "https://www.bangkokhospital.com/en/campaign/robotic-surgery  ",
   },
   {
     title: "Enlarged prostate",
     description: "Every mission is possible with all treatments options",
-    imgUrl: "/bankok_hospital/services1.png",
+    imgUrl: "/bankok_hospital/services1.webp",
     link: "https://www.bangkokhospital.com/en/campaign/benign-prostatic-hyperplasia",
   },
 ];

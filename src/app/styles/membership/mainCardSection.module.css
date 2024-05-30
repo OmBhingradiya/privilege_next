@@ -252,12 +252,20 @@
   .membership_points > p:nth-child(2n) {
     font-size: 16px;
   }
+  .membership_card_desc {
+    flex-direction: column;
+    gap: 5px;
+  }
+  .contactInfoDivider {
+    width: 60px;
+    height: 1px;
+  }
 }
 @media only screen and (max-width: 425px) {
   .main_heading h2 {
     font-size: 26px;
   }
-  .membership_card_desc {
+  /* .membership_card_desc {
     width: 90%;
-  }
+  } */
 }

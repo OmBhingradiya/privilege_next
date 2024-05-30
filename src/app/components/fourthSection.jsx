@@ -18,7 +18,7 @@ const FourthSection = () => {
           <div className={styles.firstImageSection}>
             <div className={styles.experFirstImage} data-aos="fade-right">
               <Image
-                src="/Rectangle 16.png"
+                src="/Rectangle 16.webp"
                 className={styles.image1}
                 alt="Privilege Entry Visa"
                 width={307}
@@ -32,7 +32,7 @@ const FourthSection = () => {
             </div>
             <div className={styles.experSecImage} data-aos="fade-right">
               <Image
-                src="/Rectangle 17.png"
+                src="/Rectangle 17.webp"
                 className={styles.image2}
                 alt="Thai Business Visa"
                 width={307}
@@ -47,7 +47,7 @@ const FourthSection = () => {
           </div>
           <div className={styles.secondImageSection} data-aos="zoom-in-down">
             <Image
-              src="/Rectangle 15.png"
+              src="/Rectangle 15.webp"
               className={styles.image3}
               alt="Tourist Visa"
               width={308}

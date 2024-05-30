@@ -84,7 +84,7 @@ const HighLight = () => {
       name: "Highlight",
       data: [
         {
-          imageUrl: "/medical/1.png",
+          imageUrl: "/medical/1.webp",
           name: "medical images",
           title:
             "Battling until the very last moment: A fusion of Chemotherapy and Immunotherapy for Metastatic Breast Cancer to the Lung",
@@ -93,7 +93,7 @@ const HighLight = () => {
           link: "https://www.medparkhospital.com/en-US/medpark-stories/metastatic-breast-cancer-to-the-lung",
         },
         {
-          imageUrl: "/medical/2.png",
+          imageUrl: "/medical/2.webp",
           name: "medical images",
           title: "MedPark Hospital Achieves JCI Accreditation",
           description:
@@ -101,7 +101,7 @@ const HighLight = () => {
           link: "https://www.medparkhospital.com/en-US/news/jci-accreditation",
         },
         {
-          imageUrl: "/medical/3.png",
+          imageUrl: "/medical/3.webp",
           name: "medical images",
           title:
             "MedPark ranked as a Thailand's top hospital for three consecutive years by Newsweek.",
@@ -110,7 +110,7 @@ const HighLight = () => {
           link: "https://www.medparkhospital.com/en-US/news/thailands-best-hospitals-2024-by-newsweek",
         },
         {
-          imageUrl: "/medical/4.png",
+          imageUrl: "/medical/4.webp",
           name: "medical images",
           title:
             "“Sacrifice for love” A couple shares their kidney transplantation experience. A new life under the same skin.",
@@ -119,7 +119,7 @@ const HighLight = () => {
           link: "https://www.medparkhospital.com/en-US/medpark-stories/patient-story-kidney-transplantation",
         },
         {
-          imageUrl: "/medical/5.png",
+          imageUrl: "/medical/5.webp",
           name: "medical images",
           title:
             "MedPark Hospital Garners IBCLC Care Award 2023, Reinforcing Leadership in “Breastfeeding Clinic”.",
@@ -128,7 +128,7 @@ const HighLight = () => {
           link: "https://www.medparkhospital.com/en-US/news/ibclc-care-award-2023",
         },
         {
-          imageUrl: "/medical/6.png",
+          imageUrl: "/medical/6.webp",
           name: "medical images",
           title: "I’m determined to make every surgery a masterpiece.",
           description:
@@ -142,7 +142,7 @@ const HighLight = () => {
       name: "Packages & Promotions",
       data: [
         {
-          imageUrl: "/medical/7.png",
+          imageUrl: "/medical/7.webp",
           name: "medical images",
           title: "SMILE® pro Package",
           description:
@@ -150,14 +150,14 @@ const HighLight = () => {
           link: "https://www.medparkhospital.com/en-US/packages/smilepro",
         },
         {
-          imageUrl: "/medical/8.png",
+          imageUrl: "/medical/8.webp",
           name: "medical images",
           title: "SMILE® pro Eye Screening Package",
           description: "",
           link: "https://www.medparkhospital.com/en-US/packages/smilepro-eye-screening-package",
         },
         {
-          imageUrl: "/medical/9.png",
+          imageUrl: "/medical/9.webp",
           name: "medical images",
           title: "Growth assessment package",
           description: "",
@@ -170,7 +170,7 @@ const HighLight = () => {
       name: "Disease & Treatment",
       data: [
         {
-          imageUrl: "/medical/10.png",
+          imageUrl: "/medical/10.webp",
           name: "medical images",
           title: "Pericarditis",
           description:
@@ -178,7 +178,7 @@ const HighLight = () => {
           link: "https://www.medparkhospital.com/en-US/disease-and-treatment/pericarditis",
         },
         {
-          imageUrl: "/medical/11.png",
+          imageUrl: "/medical/11.webp",
           name: "medical images",
           title: "Nasal Polyps",
           description:
@@ -186,7 +186,7 @@ const HighLight = () => {
           link: "https://www.medparkhospital.com/en-US/disease-and-treatment/nasal-polyps",
         },
         {
-          imageUrl: "/medical/12.png",
+          imageUrl: "/medical/12.webp",
           name: "medical images",
           title: "Hypercalcemia",
           description:

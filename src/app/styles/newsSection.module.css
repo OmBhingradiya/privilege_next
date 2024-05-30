@@ -48,6 +48,8 @@
 }
 .news_section {
   width: 100%;
+  position: relative;
+  z-index: 11;
 }
 .health_section {
   padding-top: 10px;
@@ -358,6 +360,7 @@
   margin: 0 auto;
   border-radius: 16px 0;
   height: 100%;
+  z-index: 2;
 }
 .health_inner_newsSection {
   border: 1px solid #ac8d71;
@@ -457,5 +460,14 @@
 @media only screen and (max-width: 425px) {
   .heading_hr {
     width: 25%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .event_time {
+    flex-direction: column;
+  }
+  .event_text {
+    margin-bottom: 0;
   }
 }

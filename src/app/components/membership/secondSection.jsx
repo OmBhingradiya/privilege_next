@@ -10,48 +10,6 @@ const SecondSection = () => {
       duration: 1200,
     });
   }, []);
-  const dummyData = [
-    {
-      name: "Birthday River Cruise Seasonal Gifts",
-      imgUrl: "/membership/img/1.png",
-    },
-    {
-      name: "Personalized Concierge",
-      imgUrl: "/membership/img/2.png",
-    },
-    {
-      name: "Priority Services",
-      imgUrl: "/membership/img/3.png",
-    },
-    {
-      name: "Dedicated Hotline",
-      imgUrl: "/membership/img/4.png",
-    },
-    {
-      name: "Supercar Test Drive",
-      imgUrl: "/membership/img/5.png",
-    },
-    {
-      name: "Free Domestic Flight",
-      imgUrl: "/membership/img/6.png",
-    },
-    {
-      name: "Accor Plus Hotel Membership",
-      imgUrl: "/membership/img/7.png",
-    },
-    {
-      name: "Hotel Fitness",
-      imgUrl: "/membership/img/8.png",
-    },
-    {
-      name: "Exclusive Networking Event",
-      imgUrl: "/membership/img/9.png",
-    },
-    {
-      name: "Annual Health Check",
-      imgUrl: "/membership/img/10.png",
-    },
-  ];
 
   return (
     <div>
@@ -69,7 +27,7 @@ const SecondSection = () => {
             <div className={styles.first_container}>
               <div className={styles.first_container_image}>
                 <Image
-                  src="/membership/img/1.png"
+                  src="/membership/img/1.webp"
                   alt="Birthday River Cruise Seasonal Gifts"
                   width={420}
                   height={475}
@@ -85,7 +43,7 @@ const SecondSection = () => {
               </div>
               <div className={styles.first_container_image}>
                 <Image
-                  src="/membership/img/2.png"
+                  src="/membership/img/2.webp"
                   alt="Personalized Concierge"
                   width={420}
                   height={475}
@@ -100,7 +58,7 @@ const SecondSection = () => {
               </div>
               <div className={styles.first_container_image}>
                 <Image
-                  src="/membership/img/3.png"
+                  src="/membership/img/3.webp"
                   alt="Priority Services"
                   width={420}
                   height={475}
@@ -117,7 +75,7 @@ const SecondSection = () => {
             <div className={styles.second_container}>
               <div className={styles.second_container_image}>
                 <Image
-                  src="/membership/img/5.png"
+                  src="/membership/img/5.webp"
                   alt="Dedicated Hotline"
                   width={645}
                   height={475}
@@ -132,7 +90,7 @@ const SecondSection = () => {
               </div>
               <div className={styles.second_container_image}>
                 <Image
-                  src="/membership/img/4.png"
+                  src="/membership/img/4.webp"
                   alt="Supercar Test Drive"
                   width={645}
                   height={475}
@@ -149,7 +107,7 @@ const SecondSection = () => {
             <div className={styles.first_container}>
               <div className={styles.first_container_image}>
                 <Image
-                  src="/membership/img/6.png"
+                  src="/membership/img/6.webp"
                   alt="Free Domestic Flight"
                   width={420}
                   height={475}
@@ -164,7 +122,7 @@ const SecondSection = () => {
               </div>
               <div className={styles.first_container_image}>
                 <Image
-                  src="/membership/img/7.png"
+                  src="/membership/img/7.webp"
                   alt="Accor Plus Hotel Membership"
                   width={420}
                   height={475}
@@ -179,7 +137,7 @@ const SecondSection = () => {
               </div>
               <div className={styles.first_container_image}>
                 <Image
-                  src="/membership/img/8.png"
+                  src="/membership/img/8.webp"
                   alt="Hotel Fitness"
                   width={420}
                   height={475}
@@ -196,7 +154,7 @@ const SecondSection = () => {
             <div className={styles.second_container}>
               <div className={styles.second_container_image}>
                 <Image
-                  src="/membership/img/9.png"
+                  src="/membership/img/9.webp"
                   alt="Exclusive Networking Event"
                   width={645}
                   height={475}
@@ -211,7 +169,7 @@ const SecondSection = () => {
               </div>
               <div className={styles.second_container_image}>
                 <Image
-                  src="/membership/img/20.png"
+                  src="/membership/img/20.webp"
                   alt="Annual Health Check"
                   width={645}
                   height={475}
@@ -228,7 +186,7 @@ const SecondSection = () => {
             <div className={styles.first_container}>
               <div className={styles.first_container_image}>
                 <Image
-                  src="/membership/img/10.png"
+                  src="/membership/img/10.webp"
                   alt="Extraordinary Shopping Experiences"
                   width={420}
                   height={475}
@@ -243,7 +201,7 @@ const SecondSection = () => {
               </div>
               <div className={styles.first_container_image}>
                 <Image
-                  src="/membership/img/12.png"
+                  src="/membership/img/12.webp"
                   alt="Co-working Space"
                   width={420}
                   height={475}
@@ -258,7 +216,7 @@ const SecondSection = () => {
               </div>
               <div className={styles.first_container_image}>
                 <Image
-                  src="/membership/img/11.png"
+                  src="/membership/img/11.webp"
                   alt="Birthday Gift"
                   width={420}
                   height={475}
@@ -275,7 +233,7 @@ const SecondSection = () => {
             <div className={styles.second_container}>
               <div className={styles.second_container_image}>
                 <Image
-                  src="/membership/img/19.png"
+                  src="/membership/img/19.webp"
                   alt="Insurance"
                   width={645}
                   height={475}
@@ -290,7 +248,7 @@ const SecondSection = () => {
               </div>
               <div className={styles.second_container_image}>
                 <Image
-                  src="/membership/img/13.png"
+                  src="/membership/img/13.webp"
                   alt="Hotel Free Night"
                   width={645}
                   height={475}
@@ -307,7 +265,7 @@ const SecondSection = () => {
             <div className={styles.first_container}>
               <div className={styles.first_container_image}>
                 <Image
-                  src="/membership/img/14.png"
+                  src="/membership/img/14.webp"
                   alt="Early Bird Event Tickets"
                   width={420}
                   height={475}
@@ -322,7 +280,7 @@ const SecondSection = () => {
               </div>
               <div className={styles.first_container_image}>
                 <Image
-                  src="/membership/img/15.png"
+                  src="/membership/img/15.webp"
                   alt="Wealth Advisory"
                   width={420}
                   height={475}
@@ -337,7 +295,7 @@ const SecondSection = () => {
               </div>
               <div className={styles.first_container_image}>
                 <Image
-                  src="/membership/img/16.png"
+                  src="/membership/img/16.webp"
                   alt="Movie VIP Seating"
                   width={420}
                   height={475}
@@ -354,7 +312,7 @@ const SecondSection = () => {
             <div className={styles.second_container}>
               <div className={styles.second_container_image}>
                 <Image
-                  src="/membership/img/18.png"
+                  src="/membership/img/18.webp"
                   alt="Seasonal Event"
                   width={645}
                   height={475}
@@ -369,7 +327,7 @@ const SecondSection = () => {
               </div>
               <div className={styles.second_container_image}>
                 <Image
-                  src="/membership/img/17.png"
+                  src="/membership/img/17.webp"
                   alt="Golf and spa"
                   width={645}
                   height={475}

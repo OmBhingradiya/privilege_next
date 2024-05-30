@@ -8,7 +8,7 @@ import Image from "next/image";
 const cards = [
   {
     id: 1,
-    imageUrl: "/reserve_card.png",
+    imageUrl: "/home/reserve_card.webp",
     invitation: "By invitation only",
     title: "RESERVE",
     membershipFees: "THB 5,000,000",
@@ -19,7 +19,7 @@ const cards = [
   },
   {
     id: 2,
-    imageUrl: "/diamond_card.png",
+    imageUrl: "/home/diamond_card.webp",
     invitation: "",
     title: "DIAMOND",
     membershipFees: "THB 2,500,000",
@@ -30,7 +30,7 @@ const cards = [
   },
   {
     id: 3,
-    imageUrl: "/platinum_card.png",
+    imageUrl: "/home/platinum_card.webp",
     invitation: "",
     title: "PLATINUM",
     membershipFees: "THB 1,500,000",
@@ -41,7 +41,7 @@ const cards = [
   },
   {
     id: 4,
-    imageUrl: "/gold_card.png",
+    imageUrl: "/home/gold_card.webp",
     invitation: "",
     title: "GOLD",
     membershipFees: "THB 900,000",

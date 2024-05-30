@@ -27,7 +27,7 @@ const TravelTheme = () => {
               >
                 <div className={styles.travelTheme_image_container}>
                   <Image
-                    src="/tours&hotel/travelTheme_1.png"
+                    src="/tours&hotel/travelTheme_1.webp"
                     alt="travel theme 1"
                     width={357}
                     height={257}
@@ -44,7 +44,7 @@ const TravelTheme = () => {
               >
                 <div className={styles.travelTheme_image_container}>
                   <Image
-                    src="/tours&hotel/travelTheme_2.png"
+                    src="/tours&hotel/travelTheme_2.webp"
                     alt="travel theme 2"
                     width={357}
                     height={257}
@@ -61,7 +61,7 @@ const TravelTheme = () => {
               >
                 <div className={styles.travelTheme_image_container}>
                   <Image
-                    src="/tours&hotel/travelTheme_3.png"
+                    src="/tours&hotel/travelTheme_3.webp"
                     alt="travel theme 3"
                     width={357}
                     height={257}
@@ -78,7 +78,7 @@ const TravelTheme = () => {
               >
                 <div className={styles.travelTheme_image_container}>
                   <Image
-                    src="/tours&hotel/travelTheme_4.png"
+                    src="/tours&hotel/travelTheme_4.webp"
                     alt="travel theme 4"
                     width={357}
                     height={257}

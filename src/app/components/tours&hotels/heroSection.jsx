@@ -26,7 +26,7 @@ const HeroSection = () => {
               <img src="./thai_miniSvg.svg" alt="thailand svg" />
             </div> */}
             <Image
-              src="/tours&hotel/tour_main_image.png"
+              src="/tours&hotel/tour_main_image.webp"
               alt="tours and hotel"
               data-aos="zoom-in"
               width={1157}

@@ -17,10 +17,10 @@ const HeroSection = ({ data }) => {
         style={{
           background: `${
             data === "Membership"
-              ? `url("./membership/membership_bg.jpg")`
+              ? `url("./membership/membership_bg.webp")`
               : data === "About"
-              ? `url("./about_bg.png")`
-              : `url("./contact_bg.jpg")`
+              ? `url("./about_bg.webp")`
+              : `url("./contact_bg.webp")`
           }`,
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",

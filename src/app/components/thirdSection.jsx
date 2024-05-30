@@ -4,14 +4,14 @@ import Link from "next/link";
 import Image from "next/image";
 
 // const textWithImages = [
-//   { text: <p className={styles.privileges_text}>STAY</p>, image: "./stay.jpg" },
+//   { text: <p className={styles.privileges_text}>STAY</p>, image: "./stay.webp" },
 //   {
 //     text: <p className={styles.privileges_text}>TRAVEL</p>,
-//     image: "./travel.jpg",
+//     image: "./travel.webp",
 //   },
 //   {
 //     text: <p className={styles.privileges_text}>LEISURE</p>,
-//     image: "./LEISURE.jpg",
+//     image: "./LEISURE.webp",
 //   },
 //   {
 //     text: (
@@ -27,11 +27,11 @@ import Image from "next/image";
 //         WELL-BEING
 //       </p>
 //     ),
-//     image: "./helth-welbing.jpg",
+//     image: "./helth-welbing.webp",
 //   },
 //   {
 //     text: <p className={styles.privileges_text}>WEALTH</p>,
-//     image: "./wealth.jpg",
+//     image: "./wealth.webp",
 //   },
 // ];
 // const ThirdSection = () => {
@@ -113,7 +113,7 @@ const ThirdSection = () => {
     {
       text: <p className={styles.privileges_text}>STAY</p>,
       title: "STAY",
-      img: "/stay.jpg",
+      img: "/home/stay.webp",
       imgClass: "styles.zoomin",
       alt: "Long-Term Residence",
       textDescri:
@@ -123,7 +123,7 @@ const ThirdSection = () => {
     {
       text: <p className={styles.privileges_text}>TRAVEL</p>,
       title: "TRAVEL",
-      img: "/travel.jpg",
+      img: "/home/travel.webp",
       imgClass: "styles.zoomin",
       alt: "Thailand Tour",
       textDescri: "Unforgettable Thai Experiences with Exceptional Privileges",
@@ -132,7 +132,7 @@ const ThirdSection = () => {
     {
       text: <p className={styles.privileges_text}>LEISURE</p>,
       title: "LEISURE",
-      img: "/LEISURE.jpg",
+      img: "/home/LEISURE.webp",
       imgClass: "styles.zoomin",
       alt: "Golden Visa Thailand",
       textDescri: "Experience VIP Travel and Discover the Wonders of Thailand",
@@ -154,7 +154,7 @@ const ThirdSection = () => {
       ),
       alt: "Citizenship By Investment",
       title: "HEALTH & WELL-BEING",
-      img: "/helth-welbing.png",
+      img: "/home/helth-welbing.webp",
       imgClass: "styles.zoomin",
       textDescri: "Prioritize Your Health with Premier Thai Wellness Services",
       link: "https://www.thailandprivilege.co.th/privileges/health-well-being",
@@ -162,7 +162,7 @@ const ThirdSection = () => {
     {
       text: <p className={styles.privileges_text}>WEALTH</p>,
       title: "WEALTH",
-      img: "/wealth.png",
+      img: "/home/wealth.webp",
       imgClass: "styles.zoomin",
       textDescri: "Expert Wealth and Investment Guidance in Thailand",
       alt: "Privilege Card Members",
@@ -172,28 +172,28 @@ const ThirdSection = () => {
 
   const mobileViewData = [
     {
-      imgUrl: "privileges-stay-respon.jpg",
+      imgUrl: "/home/privileges-stay-respon.webp",
       title: <p className={styles.mobPrivHead}>STAY</p>,
       desc: "Indulge in Exclusive Accommodations and Real Estate Opportunities",
       link: "https://www.thailandprivilege.co.th/privileges/stay",
       alt: "Long-Term Residence",
     },
     {
-      imgUrl: "privileges-travel-respon.jpg",
+      imgUrl: "/home/privileges-travel-respon.webp",
       title: <p className={styles.mobPrivHead}>TRAVEL</p>,
       desc: "Unforgettable Thai Experiences with Exceptional Privileges",
       link: "https://www.thailandprivilege.co.th/privileges/travel",
       alt: "Thailand Tour",
     },
     {
-      imgUrl: "privileges-leisure-respon.jpg",
+      imgUrl: "/home/privileges-leisure-respon.webp",
       title: <p className={styles.mobPrivHead}>LEISURE</p>,
       desc: "Experience VIP Travel and Discover the Wonders of Thailand",
       link: "https://www.thailandprivilege.co.th/privileges/leisure",
       alt: "Golden Visa Thailand",
     },
     {
-      imgUrl: "privileges-health-respon.jpg",
+      imgUrl: "/home/privileges-health-respon.webp",
       title: (
         <p className={styles.mobPrivHead}>
           HEALTH{" "}
@@ -212,7 +212,7 @@ const ThirdSection = () => {
       link: "https://www.thailandprivilege.co.th/privileges/health-well-being",
     },
     {
-      imgUrl: "privileges-wealth-respon.jpg",
+      imgUrl: "/home/privileges-wealth-respon.webp",
       title: <p className={styles.mobPrivHead}>WEALTH</p>,
       desc: "Expert Wealth and Investment Guidance in Thailand",
       link: "https://www.thailandprivilege.co.th/privileges/wealth",
