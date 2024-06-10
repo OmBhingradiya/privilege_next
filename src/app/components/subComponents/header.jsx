@@ -341,14 +341,14 @@ const Header = () => {
                 </div>
               </div>
             </div>
-            <div className={headerStyles.thirdSection}>
+            {/* <div className={headerStyles.thirdSection}>
               <div className={headerStyles.headerSearchIconDiv}>
                 <CiSearch className={headerStyles.headerSearchIcon} />
               </div>
               <div className={headerStyles.headerIconDiv}>
                 <CiUser className={headerStyles.headerIcon} />
               </div>
-            </div>
+            </div> */}
           </div>
           <div className={headerStyles.responsiveDiv}>
             {isOpen && <div className={headerStyles.headerDrawerBackground} />}
@@ -377,12 +377,12 @@ const Header = () => {
               </div>
             </div>
             {/* <div className={headerStyles.res_thirdSection}> */}
-            <div className={headerStyles.res_headerSearchIconDiv}>
+            {/* <div className={headerStyles.res_headerSearchIconDiv}>
               <CiSearch className={headerStyles.res_headerSearchIcon} />
             </div>
             <div className={headerStyles.res_headerIconDiv}>
               <CiUser className={headerStyles.res_headerIcon} />
-            </div>
+            </div> */}
             {/* </div> */}
             <div
               className={`${headerStyles.headerDrawer} ${
